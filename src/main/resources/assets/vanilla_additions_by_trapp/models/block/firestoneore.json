@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "vanilla_additions_by_trapp:blocks/firestone",
+    "particle": "vanilla_additions_by_trapp:blocks/firestone"
+  }
+}

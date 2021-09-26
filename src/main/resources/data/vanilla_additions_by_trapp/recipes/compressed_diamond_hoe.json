@@ -1,0 +1,27 @@
+{
+  "group": "vanilla_additions_by_trapp",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "vanilla_additions_by_trapp:compresseddiamond"
+    },
+    "1": {
+      "item": "vanilla_additions_by_trapp:compresseddiamond"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "vanilla_additions_by_trapp:compresseddiamondhoe",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vanilla_additions_by_trapp:blocks/compressedgranite",
+    "up": "vanilla_additions_by_trapp:blocks/compressedgranite",
+    "north": "vanilla_additions_by_trapp:blocks/compressedgranite",
+    "east": "vanilla_additions_by_trapp:blocks/compressedgranite",
+    "south": "vanilla_additions_by_trapp:blocks/compressedgranite",
+    "west": "vanilla_additions_by_trapp:blocks/compressedgranite",
+    "particle": "vanilla_additions_by_trapp:blocks/compressedgranite"
+  }
+}

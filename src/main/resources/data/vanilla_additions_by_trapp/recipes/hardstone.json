@@ -1,0 +1,37 @@
+{
+  "group": "vanilla_additions_by_trapp",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "vanilla_additions_by_trapp:compressedgranite"
+    },
+    {
+      "item": "vanilla_additions_by_trapp:compressedgranite"
+    },
+    {
+      "item": "vanilla_additions_by_trapp:compressedgranite"
+    },
+    {
+      "item": "vanilla_additions_by_trapp:compressedandesite"
+    },
+    {
+      "item": "vanilla_additions_by_trapp:compressedandesite"
+    },
+    {
+      "item": "vanilla_additions_by_trapp:compressedandesite"
+    },
+    {
+      "item": "vanilla_additions_by_trapp:compresseddiorite"
+    },
+    {
+      "item": "vanilla_additions_by_trapp:compresseddiorite"
+    },
+    {
+      "item": "vanilla_additions_by_trapp:compresseddiorite"
+    }
+  ],
+  "result": {
+    "item": "vanilla_additions_by_trapp:hardstonechunk",
+    "count": 1
+  }
+}

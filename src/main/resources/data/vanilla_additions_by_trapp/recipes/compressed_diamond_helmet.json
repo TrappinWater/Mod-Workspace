@@ -1,0 +1,29 @@
+{
+  "group": "vanilla_additions_by_trapp",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "vanilla_additions_by_trapp:compresseddiamond"
+    },
+    "1": {
+      "item": "vanilla_additions_by_trapp:compresseddiamond"
+    },
+    "2": {
+      "item": "vanilla_additions_by_trapp:compresseddiamond"
+    },
+    "3": {
+      "item": "vanilla_additions_by_trapp:compresseddiamond"
+    },
+    "5": {
+      "item": "vanilla_additions_by_trapp:compresseddiamond"
+    }
+  },
+  "result": {
+    "item": "vanilla_additions_by_trapp:cdiamondarmor_1_helmet",
+    "count": 1
+  }
+}

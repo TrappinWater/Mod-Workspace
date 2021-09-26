@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_sword"
+  },
+  "addition": {
+    "item": "vanilla_additions_by_trapp:umbralstoneitem"
+  },
+  "result": {
+    "item": "vanilla_additions_by_trapp:umbralstone_sword"
+  }
+}

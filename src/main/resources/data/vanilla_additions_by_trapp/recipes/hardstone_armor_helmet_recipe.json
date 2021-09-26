@@ -1,0 +1,29 @@
+{
+  "group": "vanilla_additions_by_trapp",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "vanilla_additions_by_trapp:hardstonechunk"
+    },
+    "1": {
+      "item": "vanilla_additions_by_trapp:hardstonechunk"
+    },
+    "2": {
+      "item": "vanilla_additions_by_trapp:hardstonechunk"
+    },
+    "3": {
+      "item": "vanilla_additions_by_trapp:hardstonechunk"
+    },
+    "5": {
+      "item": "vanilla_additions_by_trapp:hardstonechunk"
+    }
+  },
+  "result": {
+    "item": "vanilla_additions_by_trapp:hardstone_armor_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "_fv": 24,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "umbralstone_head",
+    "enableBody": true,
+    "textureBody": "umbralstone_body",
+    "enableLeggings": true,
+    "textureLeggings": "umbralstone_leggings",
+    "enableBoots": true,
+    "textureBoots": "umbralstone_boots",
+    "onHelmetTick": {
+      "name": "UmbralArmorTickEvent"
+    },
+    "onBodyTick": {
+      "name": "UmbralArmorTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "UmbralArmorTickEvent"
+    },
+    "onBootsTick": {
+      "name": "UmbralArmorTickEvent"
+    },
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "umbralstone",
+    "helmetName": "Umbral Helmet",
+    "bodyName": "Umbral Chestplate",
+    "leggingsName": "Umbral Leggings",
+    "bootsName": "Umbral Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 43,
+    "damageValueHelmet": 3,
+    "damageValueBody": 8,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 3,
+    "enchantability": 9,
+    "toughness": 4.0,
+    "knockbackResistance": 0.30000000000000004,
+    "equipSound": {
+      "value": "item.armor.equip_netherite"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Umbralstoneitem"
+      }
+    ]
+  }
+}

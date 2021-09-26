@@ -1,0 +1,42 @@
+{
+  "group": "vanilla_additions_by_trapp",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:granite"
+    },
+    "1": {
+      "item": "minecraft:granite"
+    },
+    "2": {
+      "item": "minecraft:granite"
+    },
+    "3": {
+      "item": "minecraft:granite"
+    },
+    "4": {
+      "item": "minecraft:granite"
+    },
+    "5": {
+      "item": "minecraft:granite"
+    },
+    "6": {
+      "item": "minecraft:granite"
+    },
+    "7": {
+      "item": "minecraft:granite"
+    },
+    "8": {
+      "item": "minecraft:granite"
+    }
+  },
+  "result": {
+    "item": "vanilla_additions_by_trapp:compressedgranite",
+    "count": 1
+  }
+}
