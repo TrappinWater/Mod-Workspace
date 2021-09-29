@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Umbralplains"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:Umbralwood"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:Umbralessence"
+    },
+    "airColor": {
+      "value": -10092442,
+      "falpha": 0.0
+    },
+    "canRespawnHere": true,
+    "hasFog": true,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "CUSTOM:Umbralwood"
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "ambient.nether_wastes.mood"
+    },
+    "igniterName": "Umbra Portal Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "umbralportaligniter",
+    "portalTexture": "umbraportalblock",
+    "enablePortal": true
+  }
+}

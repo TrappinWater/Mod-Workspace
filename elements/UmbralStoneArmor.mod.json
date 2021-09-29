@@ -3,13 +3,13 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "umbralstone_head",
+    "textureHelmet": "umbralhelmet",
     "enableBody": true,
-    "textureBody": "umbralstone_body",
+    "textureBody": "umbralchestplate",
     "enableLeggings": true,
-    "textureLeggings": "umbralstone_leggings",
+    "textureLeggings": "umbralleggings",
     "enableBoots": true,
-    "textureBoots": "umbralstone_boots",
+    "textureBoots": "umbralboots",
     "onHelmetTick": {
       "name": "UmbralArmorTickEvent"
     },

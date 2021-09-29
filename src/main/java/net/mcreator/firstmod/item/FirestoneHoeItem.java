@@ -11,8 +11,10 @@ import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.HoeItem;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.LivingEntity;
 
 import net.mcreator.firstmod.procedures.FirestonePickaxeItemIsCraftedsmeltedProcedure;
+import net.mcreator.firstmod.procedures.FirestoneLivingEntityIsHitWithToolProcedure;
 import net.mcreator.firstmod.VanillaAdditionsByTrappModElements;
 
 import java.util.Map;
@@ -64,6 +66,21 @@ public class FirestoneHoeItem extends VanillaAdditionsByTrappModElements.ModElem
 					$_dependencies.put("itemstack", itemstack);
 					FirestonePickaxeItemIsCraftedsmeltedProcedure.executeProcedure($_dependencies);
 				}
+			}
+
+			@Override
+			public boolean hitEntity(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
+				boolean retval = super.hitEntity(itemstack, entity, sourceentity);
+				double x = entity.getPosX();
+				double y = entity.getPosY();
+				double z = entity.getPosZ();
+				World world = entity.world;
+				{
+					Map<String, Object> $_dependencies = new HashMap<>();
+					$_dependencies.put("entity", entity);
+					FirestoneLivingEntityIsHitWithToolProcedure.executeProcedure($_dependencies);
+				}
+				return retval;
 			}
 		}.setRegistryName("firestone_hoe"));
 	}

@@ -11,7 +11,9 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.LivingEntity;
 
+import net.mcreator.firstmod.procedures.UmbralstoneSwordLivingEntityIsHitWithToolProcedure;
 import net.mcreator.firstmod.procedures.UmbralstoneItemIsCraftedsmeltedProcedure;
 import net.mcreator.firstmod.VanillaAdditionsByTrappModElements;
 
@@ -64,6 +66,21 @@ public class UmbralstoneShovelItem extends VanillaAdditionsByTrappModElements.Mo
 					$_dependencies.put("itemstack", itemstack);
 					UmbralstoneItemIsCraftedsmeltedProcedure.executeProcedure($_dependencies);
 				}
+			}
+
+			@Override
+			public boolean hitEntity(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
+				boolean retval = super.hitEntity(itemstack, entity, sourceentity);
+				double x = entity.getPosX();
+				double y = entity.getPosY();
+				double z = entity.getPosZ();
+				World world = entity.world;
+				{
+					Map<String, Object> $_dependencies = new HashMap<>();
+					$_dependencies.put("entity", entity);
+					UmbralstoneSwordLivingEntityIsHitWithToolProcedure.executeProcedure($_dependencies);
+				}
+				return retval;
 			}
 		}.setRegistryName("umbralstone_shovel"));
 	}

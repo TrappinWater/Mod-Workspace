@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vanilla_additions_by_trapp:blocks/umbralore",
+    "up": "vanilla_additions_by_trapp:blocks/umbralore",
+    "north": "vanilla_additions_by_trapp:blocks/umbralore",
+    "east": "vanilla_additions_by_trapp:blocks/umbralore",
+    "south": "vanilla_additions_by_trapp:blocks/umbralore",
+    "west": "vanilla_additions_by_trapp:blocks/umbralore",
+    "particle": "vanilla_additions_by_trapp:blocks/umbralore"
+  }
+}

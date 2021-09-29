@@ -11,7 +11,9 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.LivingEntity;
 
+import net.mcreator.firstmod.procedures.UmbralstoneSwordLivingEntityIsHitWithToolProcedure;
 import net.mcreator.firstmod.procedures.UmbralstoneItemIsCraftedsmeltedProcedure;
 import net.mcreator.firstmod.VanillaAdditionsByTrappModElements;
 
@@ -20,7 +22,7 @@ import java.util.HashMap;
 
 @VanillaAdditionsByTrappModElements.ModElement.Tag
 public class UmbralstoneSwordItem extends VanillaAdditionsByTrappModElements.ModElement {
-	@ObjectHolder("vanilla_additions_by_trapp:umbralstone_sword")
+	@ObjectHolder("vanilla_additions_by_trapp:umbral_sword")
 	public static final Item block = null;
 	public UmbralstoneSwordItem(VanillaAdditionsByTrappModElements instance) {
 		super(instance, 90);
@@ -65,6 +67,21 @@ public class UmbralstoneSwordItem extends VanillaAdditionsByTrappModElements.Mod
 					UmbralstoneItemIsCraftedsmeltedProcedure.executeProcedure($_dependencies);
 				}
 			}
-		}.setRegistryName("umbralstone_sword"));
+
+			@Override
+			public boolean hitEntity(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
+				boolean retval = super.hitEntity(itemstack, entity, sourceentity);
+				double x = entity.getPosX();
+				double y = entity.getPosY();
+				double z = entity.getPosZ();
+				World world = entity.world;
+				{
+					Map<String, Object> $_dependencies = new HashMap<>();
+					$_dependencies.put("entity", entity);
+					UmbralstoneSwordLivingEntityIsHitWithToolProcedure.executeProcedure($_dependencies);
+				}
+				return retval;
+			}
+		}.setRegistryName("umbral_sword"));
 	}
 }

@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "firestone_sword",
+    "texture": "firestoneswoord",
     "customModelName": "Normal",
     "name": "Firestone Sword",
     "specialInfo": [],
@@ -29,6 +29,9 @@
     "damageOnCrafting": false,
     "onCrafted": {
       "name": "FirestonePickaxeItemIsCraftedsmelted"
+    },
+    "onEntityHitWith": {
+      "name": "FirestoneLivingEntityIsHitWithTool"
     }
   }
 }

@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "umbralstone_sword",
+    "texture": "umbralswoord",
     "customModelName": "Normal",
     "name": "Umbral Sword",
     "specialInfo": [],
@@ -29,6 +29,9 @@
     "damageOnCrafting": false,
     "onCrafted": {
       "name": "UmbralstoneItemIsCraftedsmelted"
+    },
+    "onEntityHitWith": {
+      "name": "UmbralstoneSwordLivingEntityIsHitWithTool"
     }
   }
 }
