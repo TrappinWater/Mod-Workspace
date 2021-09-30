@@ -11,16 +11,16 @@
     "enableBoots": true,
     "textureBoots": "umbralboots",
     "onHelmetTick": {
-      "name": "UmbralArmorTickEvent"
+      "name": "Umbralarmor"
     },
     "onBodyTick": {
-      "name": "UmbralArmorTickEvent"
+      "name": "Umbralarmor"
     },
     "onLeggingsTick": {
-      "name": "UmbralArmorTickEvent"
+      "name": "Umbralarmor"
     },
     "onBootsTick": {
-      "name": "UmbralArmorTickEvent"
+      "name": "Umbralarmor"
     },
     "creativeTab": {
       "value": "COMBAT"

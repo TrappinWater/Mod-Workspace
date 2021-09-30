@@ -6,8 +6,9 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
 import net.minecraftforge.event.RegistryEvent;
-import net.minecraftforge.common.ToolType;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.gen.feature.template.RuleTest;
 import net.minecraft.world.gen.feature.template.IRuleTestType;
@@ -25,17 +26,21 @@ import net.minecraft.util.registry.Registry;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
+import net.minecraft.particles.ParticleTypes;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.client.Minecraft;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.firstmod.item.UmbralfragmentItem;
+import net.mcreator.firstmod.item.SkystoneitemItem;
 import net.mcreator.firstmod.VanillaAdditionsByTrappModElements;
 
 import java.util.Random;
@@ -43,11 +48,11 @@ import java.util.List;
 import java.util.Collections;
 
 @VanillaAdditionsByTrappModElements.ModElement.Tag
-public class UmbraloreBlock extends VanillaAdditionsByTrappModElements.ModElement {
-	@ObjectHolder("vanilla_additions_by_trapp:umbralore")
+public class SkystoneoreBlock extends VanillaAdditionsByTrappModElements.ModElement {
+	@ObjectHolder("vanilla_additions_by_trapp:skystoneore")
 	public static final Block block = null;
-	public UmbraloreBlock(VanillaAdditionsByTrappModElements instance) {
-		super(instance, 125);
+	public SkystoneoreBlock(VanillaAdditionsByTrappModElements instance) {
+		super(instance, 127);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -60,9 +65,9 @@ public class UmbraloreBlock extends VanillaAdditionsByTrappModElements.ModElemen
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)
-					.harvestTool(ToolType.PICKAXE).setRequiresTool());
-			setRegistryName("umbralore");
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(3.75f, 10f).setLightLevel(s -> 0)
+					.slipperiness(0.9f).speedFactor(1.5f).jumpFactor(1.6f));
+			setRegistryName("skystoneore");
 		}
 
 		@Override
@@ -75,7 +80,28 @@ public class UmbraloreBlock extends VanillaAdditionsByTrappModElements.ModElemen
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(UmbralfragmentItem.block));
+			return Collections.singletonList(new ItemStack(SkystoneitemItem.block));
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		@Override
+		public void animateTick(BlockState blockstate, World world, BlockPos pos, Random random) {
+			super.animateTick(blockstate, world, pos, random);
+			PlayerEntity entity = Minecraft.getInstance().player;
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			if (true)
+				for (int l = 0; l < 3; ++l) {
+					double d0 = (x + random.nextFloat());
+					double d1 = (y + random.nextFloat());
+					double d2 = (z + random.nextFloat());
+					int i1 = random.nextInt(2) * 2 - 1;
+					double d3 = (random.nextFloat() - 0.5D) * 0.9000000014901162D;
+					double d4 = (random.nextFloat() - 0.5D) * 0.9000000014901162D;
+					double d5 = (random.nextFloat() - 0.5D) * 0.9000000014901162D;
+					world.addParticle(ParticleTypes.CRIMSON_SPORE, d0, d1, d2, d3, d4, d5);
+				}
 		}
 	}
 	private static Feature<OreFeatureConfig> feature = null;
@@ -86,7 +112,7 @@ public class UmbraloreBlock extends VanillaAdditionsByTrappModElements.ModElemen
 		static final com.mojang.serialization.Codec<CustomRuleTest> codec = com.mojang.serialization.Codec.unit(() -> INSTANCE);
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;
-			if (blockAt.getBlock() == UmbralwoodBlock.block)
+			if (blockAt.getBlock() == Blocks.AIR)
 				blockCriteria = true;
 			return blockCriteria;
 		}
@@ -99,7 +125,7 @@ public class UmbraloreBlock extends VanillaAdditionsByTrappModElements.ModElemen
 	private static class FeatureRegisterHandler {
 		@SubscribeEvent
 		public void registerFeature(RegistryEvent.Register<Feature<?>> event) {
-			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("vanilla_additions_by_trapp:umbralore_match"),
+			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("vanilla_additions_by_trapp:skystoneore_match"),
 					() -> CustomRuleTest.codec);
 			feature = new OreFeature(OreFeatureConfig.CODEC) {
 				@Override
@@ -113,10 +139,11 @@ public class UmbraloreBlock extends VanillaAdditionsByTrappModElements.ModElemen
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 3)).range(64)
-					.square().func_242731_b(3);
-			event.getRegistry().register(feature.setRegistryName("umbralore"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("vanilla_additions_by_trapp:umbralore"), configuredFeature);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 5)).range(64)
+					.square().func_242731_b(4);
+			event.getRegistry().register(feature.setRegistryName("skystoneore"));
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("vanilla_additions_by_trapp:skystoneore"),
+					configuredFeature);
 		}
 	}
 	@SubscribeEvent

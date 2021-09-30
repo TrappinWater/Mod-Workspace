@@ -21,7 +21,7 @@ public class UmbralknightRenderer {
 		@OnlyIn(Dist.CLIENT)
 		public void registerModels(ModelRegistryEvent event) {
 			RenderingRegistry.registerEntityRenderingHandler(UmbralknightEntity.entity, renderManager -> {
-				BipedRenderer customRender = new BipedRenderer(renderManager, new BipedModel(0), 0.5f) {
+				BipedRenderer customRender = new BipedRenderer(renderManager, new BipedModel(0), 0.4f) {
 					@Override
 					public ResourceLocation getEntityTexture(Entity entity) {
 						return new ResourceLocation("vanilla_additions_by_trapp:textures/empty.png");

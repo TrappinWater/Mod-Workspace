@@ -127,7 +127,7 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
+        "value": "CUSTOM:Umbralwood"
       }
     ],
     "frequencyPerChunks": 3,

@@ -88,6 +88,8 @@ public class FirestoneoreBlock extends VanillaAdditionsByTrappModElements.ModEle
 			boolean blockCriteria = false;
 			if (blockAt.getBlock() == Blocks.NETHERRACK)
 				blockCriteria = true;
+			if (blockAt.getBlock() == UmbralwoodBlock.block)
+				blockCriteria = true;
 			return blockCriteria;
 		}
 
@@ -108,13 +110,15 @@ public class FirestoneoreBlock extends VanillaAdditionsByTrappModElements.ModEle
 					boolean dimensionCriteria = false;
 					if (dimensionType == World.THE_NETHER)
 						dimensionCriteria = true;
+					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("vanilla_additions_by_trapp:umbra")))
+						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
 			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 9)).range(117)
-					.square().func_242731_b(16);
+					.square().func_242731_b(17);
 			event.getRegistry().register(feature.setRegistryName("firestoneore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("vanilla_additions_by_trapp:firestoneore"),
 					configuredFeature);

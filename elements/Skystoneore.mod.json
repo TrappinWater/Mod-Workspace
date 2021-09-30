@@ -2,14 +2,14 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "firestone",
-    "textureTop": "firestone",
-    "textureLeft": "firestone",
-    "textureFront": "firestone",
-    "textureRight": "firestone",
-    "textureBack": "firestone",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "texture": "skystoneore",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -32,18 +32,18 @@
         "subtract": false
       }
     ],
-    "name": "Firestone",
+    "name": "Skystoneore",
     "specialInfo": [],
-    "hardness": 4.0,
-    "resistance": 3.0,
+    "hardness": 3.75,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Skystoneitem"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -70,14 +70,14 @@
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
-    "slipperiness": 0.6,
-    "speedFactor": 1.0,
-    "jumpFactor": 1.0,
+    "slipperiness": 0.9,
+    "speedFactor": 1.5,
+    "jumpFactor": 1.6,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "NETHER_ORE"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""
@@ -97,13 +97,13 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
-    "spawnParticles": false,
+    "spawnParticles": true,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "CRIMSON_SPORE"
     },
     "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
+    "particleSpawningRadious": 0.9000000014901162,
+    "particleAmount": 3,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
@@ -122,21 +122,17 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [
-      "Nether",
       "CUSTOM:Umbra"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.NETHERRACK"
-      },
-      {
-        "value": "CUSTOM:Umbralwood"
+        "value": "Blocks.AIR"
       }
     ],
-    "frequencyPerChunks": 17,
-    "frequencyOnChunk": 9,
-    "minGenerateHeight": 10,
-    "maxGenerateHeight": 117
+    "frequencyPerChunks": 4,
+    "frequencyOnChunk": 5,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
   }
 }

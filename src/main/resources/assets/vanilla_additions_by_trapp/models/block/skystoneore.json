@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vanilla_additions_by_trapp:blocks/skystoneore",
+    "up": "vanilla_additions_by_trapp:blocks/skystoneore",
+    "north": "vanilla_additions_by_trapp:blocks/skystoneore",
+    "east": "vanilla_additions_by_trapp:blocks/skystoneore",
+    "south": "vanilla_additions_by_trapp:blocks/skystoneore",
+    "west": "vanilla_additions_by_trapp:blocks/skystoneore",
+    "particle": "vanilla_additions_by_trapp:blocks/skystoneore"
+  }
+}

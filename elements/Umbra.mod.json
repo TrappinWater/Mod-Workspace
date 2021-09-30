@@ -18,11 +18,11 @@
       "value": -10092442,
       "falpha": 0.0
     },
-    "canRespawnHere": true,
+    "canRespawnHere": false,
     "hasFog": true,
     "isDark": false,
     "doesWaterVaporize": false,
-    "sleepResult": "ALLOW",
+    "sleepResult": "DENY",
     "hasSkyLight": false,
     "imitateOverworldBehaviour": false,
     "portalFrame": {
@@ -35,7 +35,7 @@
     "portalSound": {
       "value": "ambient.nether_wastes.mood"
     },
-    "igniterName": "Umbra Portal Igniter",
+    "igniterName": "Umbral Igniter",
     "igniterTab": {
       "value": "TOOLS"
     },

@@ -18,7 +18,7 @@ import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.firstmod.procedures.UmbralArmorTickEventProcedure;
+import net.mcreator.firstmod.procedures.UmbralarmorProcedure;
 import net.mcreator.firstmod.VanillaAdditionsByTrappModElements;
 
 import java.util.Map;
@@ -98,8 +98,8 @@ public class UmbralStoneArmorItem extends VanillaAdditionsByTrappModElements.Mod
 						double z = entity.getPosZ();
 						{
 							Map<String, Object> $_dependencies = new HashMap<>();
-							$_dependencies.put("itemstack", itemstack);
-							UmbralArmorTickEventProcedure.executeProcedure($_dependencies);
+							$_dependencies.put("entity", entity);
+							UmbralarmorProcedure.executeProcedure($_dependencies);
 						}
 					}
 				}.setRegistryName("umbral_stone_armor_helmet"));
@@ -118,8 +118,8 @@ public class UmbralStoneArmorItem extends VanillaAdditionsByTrappModElements.Mod
 						double z = entity.getPosZ();
 						{
 							Map<String, Object> $_dependencies = new HashMap<>();
-							$_dependencies.put("itemstack", itemstack);
-							UmbralArmorTickEventProcedure.executeProcedure($_dependencies);
+							$_dependencies.put("entity", entity);
+							UmbralarmorProcedure.executeProcedure($_dependencies);
 						}
 					}
 				}.setRegistryName("umbral_stone_armor_chestplate"));
@@ -138,8 +138,8 @@ public class UmbralStoneArmorItem extends VanillaAdditionsByTrappModElements.Mod
 						double z = entity.getPosZ();
 						{
 							Map<String, Object> $_dependencies = new HashMap<>();
-							$_dependencies.put("itemstack", itemstack);
-							UmbralArmorTickEventProcedure.executeProcedure($_dependencies);
+							$_dependencies.put("entity", entity);
+							UmbralarmorProcedure.executeProcedure($_dependencies);
 						}
 					}
 				}.setRegistryName("umbral_stone_armor_leggings"));
@@ -158,8 +158,8 @@ public class UmbralStoneArmorItem extends VanillaAdditionsByTrappModElements.Mod
 						double z = entity.getPosZ();
 						{
 							Map<String, Object> $_dependencies = new HashMap<>();
-							$_dependencies.put("itemstack", itemstack);
-							UmbralArmorTickEventProcedure.executeProcedure($_dependencies);
+							$_dependencies.put("entity", entity);
+							UmbralarmorProcedure.executeProcedure($_dependencies);
 						}
 					}
 				}.setRegistryName("umbral_stone_armor_boots"));
