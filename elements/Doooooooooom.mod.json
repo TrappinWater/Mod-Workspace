@@ -1,0 +1,42 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "staff2",
+    "customModelName": "Normal",
+    "name": "Ultimate staff of destruction",
+    "specialInfo": [
+      "This staff allows it's user to wield the power of destruction itself"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "Items.END_CRYSTAL"
+    },
+    "shootConstantly": false,
+    "usageCount": 20,
+    "actionSound": {
+      "value": "entity.lightning.impact"
+    },
+    "hasGlow": true,
+    "animation": "bow",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 4.0,
+    "bulletPower": 3.0,
+    "bulletDamage": 30.0,
+    "bulletKnockback": 20,
+    "bulletParticles": true,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "Blocks.SOUL_FIRE"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "umbralessence.png",
+    "onBulletHitsBlock": {
+      "name": "DoooooooooomBulletHitsBlock"
+    }
+  }
+}

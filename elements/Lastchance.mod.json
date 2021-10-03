@@ -1,0 +1,21 @@
+{
+  "_fv": 24,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Last chance",
+    "splashName": "Splash Potion of Last chance",
+    "lingeringName": "Lingering Potion of Last chance",
+    "arrowName": "Arrow of Last chance",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Effect2"
+        },
+        "duration": 6000,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

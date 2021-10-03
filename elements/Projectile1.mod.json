@@ -1,0 +1,40 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "staff",
+    "customModelName": "Normal",
+    "name": "Staff of destruction",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "Blocks.TNT"
+    },
+    "shootConstantly": true,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "block.beacon.activate"
+    },
+    "hasGlow": true,
+    "animation": "bow",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 2.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 4.0,
+    "bulletKnockback": 5,
+    "bulletParticles": true,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "Blocks.FIRE"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "red.png",
+    "onBulletHitsBlock": {
+      "name": "Projectile1BulletHitsBlock"
+    }
+  }
+}

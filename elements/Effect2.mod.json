@@ -1,0 +1,23 @@
+{
+  "_fv": 24,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Last chance",
+    "icon": "black.png",
+    "color": {
+      "value": -65485,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "Effect2OnEffectActiveTick"
+    },
+    "onExpired": {
+      "name": "Effect2EffectExpires"
+    }
+  }
+}

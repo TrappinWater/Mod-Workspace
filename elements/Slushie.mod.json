@@ -1,0 +1,21 @@
+{
+  "_fv": 24,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Slushie",
+    "splashName": "Splash Potion of Slushie",
+    "lingeringName": "Lingering Potion of Slushie",
+    "arrowName": "Arrow of Slushie",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Effect1"
+        },
+        "duration": 200,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}
