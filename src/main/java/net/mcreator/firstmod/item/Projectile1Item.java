@@ -126,7 +126,7 @@ public class Projectile1Item extends VanillaAdditionsByTrappModElements.ModEleme
 						}
 					}
 					if (entity.abilities.isCreativeMode || stack != ItemStack.EMPTY) {
-						ArrowCustomEntity entityarrow = shoot(world, entity, random, 1f, 4, 5);
+						ArrowCustomEntity entityarrow = shoot(world, entity, random, 0.7000000000000001f, 5, 5);
 						itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
 						if (entity.abilities.isCreativeMode) {
 							entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.CREATIVE_ONLY;
@@ -236,9 +236,9 @@ public class Projectile1Item extends VanillaAdditionsByTrappModElements.ModEleme
 		double d0 = target.getPosY() + (double) target.getEyeHeight() - 1.1;
 		double d1 = target.getPosX() - entity.getPosX();
 		double d3 = target.getPosZ() - entity.getPosZ();
-		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 1f * 2, 12.0F);
+		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 0.7000000000000001f * 2, 12.0F);
 		entityarrow.setSilent(true);
-		entityarrow.setDamage(4);
+		entityarrow.setDamage(5);
 		entityarrow.setKnockbackStrength(5);
 		entityarrow.setIsCritical(true);
 		entityarrow.setFire(100);

@@ -40,7 +40,7 @@
       "value": "TOOLS"
     },
     "texture": "umbralportaligniter",
-    "portalTexture": "umbraportalblock",
+    "portalTexture": "umbralportal",
     "enablePortal": true
   }
 }

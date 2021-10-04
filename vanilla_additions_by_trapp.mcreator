@@ -1614,27 +1614,56 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "testarcher"
+    },
+    {
+      "name": "TestarcherPlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "testarcher_player_collides_with_this_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.vanilla_additions_by_trapp.skystone_shovel": "Skystone Shovel",
       "item.vanilla_additions_by_trapp.umbralstone_hoe": "Umbral Hoe",
+      "item.vanilla_additions_by_trapp.skystone_shovel": "Skystone Shovel",
       "item.vanilla_additions_by_trapp.brightstoneitem": "Brightstone",
       "item.vanilla_additions_by_trapp.umbralstone_shovel": "Umbral Shovel",
       "item.vanilla_additions_by_trapp.hardstone_armor_chestplate": "Hardstone Chestplate",
-      "item.vanilla_additions_by_trapp.redstone_armor_boots": "Redstone Boots",
       "item.vanilla_additions_by_trapp.sea_stone_armor_helmet": "Sea Stone Helmet",
+      "item.vanilla_additions_by_trapp.redstone_armor_boots": "Redstone Boots",
       "item.vanilla_additions_by_trapp.sea_stone_armor_leggings": "Sea Stone Leggings",
       "item.first_mod.cdiamondarmor_1_chestplate": "Compressed Diamond Chestplate",
       "item.vanilla_additions_by_trapp.compresseddiamondaxe": "Compressed Diamond Axe",
       "block.vanilla_additions_by_trapp.umbraldeepearth": "Umbraldeepearth",
       "block.vanilla_additions_by_trapp.umbralwood": "Umbralwood",
       "item.vanilla_additions_by_trapp.cdiamondarmor_1_chestplate": "Compressed Diamond Chestplate",
-      "block.vanilla_additions_by_trapp.hardstoneblock": "Block of Hardstone",
       "item.vanilla_additions_by_trapp.umbral_stone_armor_leggings": "Umbral Leggings",
+      "block.vanilla_additions_by_trapp.hardstoneblock": "Block of Hardstone",
       "item.vanilla_additions_by_trapp.hardstone_sword": "Hardstone Sword",
       "item.vanilla_additions_by_trapp.cdiamondarmor_1_boots": "Compressed Diamond Boots",
       "block.vanilla_additions_by_trapp.umbralore": "Umbralore",
@@ -1647,8 +1676,8 @@
       "item.minecraft.tipped_arrow.effect.slushie": "Arrow of Slushie",
       "item.vanilla_additions_by_trapp.compresseddiamondpickaxe": "Compressed Diamond Pickaxe",
       "item.vanilla_additions_by_trapp.hardstone_axe": "Hardstone Axe",
-      "item.first_mod.compresseddiamondhoe": "Compressed Diamond Hoe",
       "item.vanilla_additions_by_trapp.compresseddiamondshovel": "Compressed Diamond Shovel",
+      "item.first_mod.compresseddiamondhoe": "Compressed Diamond Hoe",
       "item.vanilla_additions_by_trapp.firestone_shovel": "Firestone Shovel",
       "fluid.vanilla_additions_by_trapp.umbralessence": "Umbralessence",
       "item.minecraft.potion.effect.slushie": "Slushie",
@@ -1661,8 +1690,8 @@
       "item.vanilla_additions_by_trapp.skystoneitem": "Skystone",
       "item.vanilla_additions_by_trapp.staffofwind": "Staff of wind",
       "item.vanilla_additions_by_trapp.projectile_1": "Staff of destruction",
-      "item.vanilla_additions_by_trapp.hardstone_armor_boots": "Hardstone Boots",
       "block.vanilla_additions_by_trapp.compressedgranite": "Compressed Granite",
+      "item.vanilla_additions_by_trapp.hardstone_armor_boots": "Hardstone Boots",
       "block.vanilla_additions_by_trapp.compressedandesite": "Compressed Andesite",
       "effect.effect_2": "Last chance",
       "effect.effect_1": "Frozen",

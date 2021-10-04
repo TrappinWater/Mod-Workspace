@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "vanilla_additions_by_trapp:blocks/umbraportalblock",
-    "portal": "vanilla_additions_by_trapp:blocks/umbraportalblock"
+    "particle": "vanilla_additions_by_trapp:blocks/umbralportal",
+    "portal": "vanilla_additions_by_trapp:blocks/umbralportal"
   },
   "elements": [
     {

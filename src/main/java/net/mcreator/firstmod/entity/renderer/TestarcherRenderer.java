@@ -20,10 +20,10 @@ public class TestarcherRenderer {
 		@OnlyIn(Dist.CLIENT)
 		public void registerModels(ModelRegistryEvent event) {
 			RenderingRegistry.registerEntityRenderingHandler(TestarcherEntity.entity,
-					renderManager -> new MobRenderer(renderManager, new SlimeModel(0), 0.5f) {
+					renderManager -> new MobRenderer(renderManager, new SlimeModel(0), 1.4000000000000001f) {
 						@Override
 						public ResourceLocation getEntityTexture(Entity entity) {
-							return new ResourceLocation("vanilla_additions_by_trapp:textures/eye.png");
+							return new ResourceLocation("vanilla_additions_by_trapp:textures/umbralportal.png");
 						}
 					});
 		}

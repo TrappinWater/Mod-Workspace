@@ -5,11 +5,11 @@
     "mobName": "Testarcher",
     "mobLabel": "",
     "mobModelName": "Slime",
-    "mobModelTexture": "eye.png",
+    "mobModelTexture": "umbralportal.png",
     "mobModelGlowTexture": "",
-    "modelWidth": 1.0,
-    "modelHeight": 1.0,
-    "modelShadowSize": 0.5,
+    "modelWidth": 2.0,
+    "modelHeight": 2.0,
+    "modelShadowSize": 1.4000000000000001,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
@@ -49,13 +49,13 @@
     "attackStrength": 3,
     "attackKnockback": 0.0,
     "knockbackResistance": 16.6,
-    "movementSpeed": 0.3,
+    "movementSpeed": 0.19999999999999998,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
-    "health": 10,
-    "xpAmount": 0,
+    "health": 20,
+    "xpAmount": 20,
     "waterMob": false,
-    "flyingMob": false,
+    "flyingMob": true,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
@@ -66,16 +66,16 @@
     "immuneToFire": true,
     "immuneToArrows": true,
     "immuneToFallDamage": true,
-    "immuneToCactus": true,
+    "immuneToCactus": false,
     "immuneToDrowning": true,
     "immuneToLightning": true,
     "immuneToPotions": true,
     "immuneToPlayer": false,
     "immuneToExplosion": true,
-    "immuneToTrident": true,
+    "immuneToTrident": false,
     "immuneToAnvil": true,
     "immuneToWither": true,
-    "immuneToDragonBreath": true,
+    "immuneToDragonBreath": false,
     "mobDrop": {
       "value": ""
     },
@@ -98,9 +98,12 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
+    "onPlayerCollidesWith": {
+      "name": "TestarcherPlayerCollidesWithThisEntity"
+    },
     "hasAI": true,
     "aiBase": "Blaze",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">CUSTOM:Testarcher</field><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block><block type=\"attack_on_collide\" x=\"590\" y=\"122\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field></block><block type=\"attack_on_collide\" x=\"704\" y=\"256\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block><block type=\"attack_on_collide\" x=\"590\" y=\"122\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field></block></xml>",
     "breedable": false,
     "tameable": false,
     "breedTriggerItems": [],
@@ -109,13 +112,17 @@
       "value": ""
     },
     "rangedItemType": "Projectile1",
-    "spawnThisMob": false,
+    "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 20,
+    "spawningProbability": 1,
     "mobSpawningType": "monster",
-    "minNumberOfMobsPerGroup": 4,
-    "maxNumberOfMobsPerGroup": 4,
-    "restrictionBiomes": [],
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 1,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Umbralplains"
+      }
+    ],
     "spawnInDungeons": false
   }
 }
