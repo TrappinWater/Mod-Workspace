@@ -179,9 +179,9 @@ public class UmbralknightEntity extends VanillaAdditionsByTrappModElements.ModEl
 					double d1 = (y + random.nextFloat());
 					double d2 = (z + random.nextFloat());
 					int i1 = random.nextInt(2) * 2 - 1;
-					double d3 = (random.nextFloat() - 0.5D) * 0.4999999985098839D;
-					double d4 = (random.nextFloat() - 0.5D) * 0.4999999985098839D;
-					double d5 = (random.nextFloat() - 0.5D) * 0.4999999985098839D;
+					double d3 = (random.nextFloat() - 0.5D) * 0.2999999985098839D;
+					double d4 = (random.nextFloat() - 0.5D) * 0.2999999985098839D;
+					double d5 = (random.nextFloat() - 0.5D) * 0.2999999985098839D;
 					world.addParticle(ParticleTypes.WARPED_SPORE, d0, d1, d2, d3, d4, d5);
 				}
 		}

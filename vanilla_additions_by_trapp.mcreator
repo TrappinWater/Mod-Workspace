@@ -1643,16 +1643,149 @@
           }
         ]
       }
+    },
+    {
+      "name": "HomerOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "homer_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HomerEntityDies",
+      "type": "procedure",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "homer_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Homer",
+      "type": "livingentity",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "homer"
+    },
+    {
+      "name": "HominglauncerRangedItemUsed",
+      "type": "procedure",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hominglauncer_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hominglauncer",
+      "type": "rangeditem",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hominglauncer"
+    },
+    {
+      "name": "Chungus",
+      "type": "livingentity",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chungus"
+    },
+    {
+      "name": "ChungusEntityIsHurt",
+      "type": "procedure",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chungus_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.vanilla_additions_by_trapp.hominglauncer": "Homing launcer",
       "item.vanilla_additions_by_trapp.umbralstone_hoe": "Umbral Hoe",
       "item.vanilla_additions_by_trapp.skystone_shovel": "Skystone Shovel",
       "item.vanilla_additions_by_trapp.brightstoneitem": "Brightstone",
       "item.vanilla_additions_by_trapp.umbralstone_shovel": "Umbral Shovel",
+      "entity.vanilla_additions_by_trapp.homer": "Homer",
       "item.vanilla_additions_by_trapp.hardstone_armor_chestplate": "Hardstone Chestplate",
       "item.vanilla_additions_by_trapp.sea_stone_armor_helmet": "Sea Stone Helmet",
       "item.vanilla_additions_by_trapp.redstone_armor_boots": "Redstone Boots",
@@ -1674,6 +1807,7 @@
       "block.vanilla_additions_by_trapp.umbralearth": "Umbralearth",
       "item.vanilla_additions_by_trapp.voidlarva_spawn_egg": "Void crawler Spawn Egg",
       "item.minecraft.tipped_arrow.effect.slushie": "Arrow of Slushie",
+      "item.vanilla_additions_by_trapp.chungus_spawn_egg": "Chungus Spawn Egg",
       "item.vanilla_additions_by_trapp.compresseddiamondpickaxe": "Compressed Diamond Pickaxe",
       "item.vanilla_additions_by_trapp.hardstone_axe": "Hardstone Axe",
       "item.vanilla_additions_by_trapp.compresseddiamondshovel": "Compressed Diamond Shovel",
@@ -1704,6 +1838,7 @@
       "item.vanilla_additions_by_trapp.compresseddiamondsword": "Compressed Diamond Sword",
       "item.vanilla_additions_by_trapp.compresseddiamondhoe": "Compressed Diamond Hoe",
       "item.vanilla_additions_by_trapp.umbral_sword": "Umbral Sword",
+      "entity.vanilla_additions_by_trapp.chungus": "Chungus",
       "item.vanilla_additions_by_trapp.umbralstone_pickaxe": "Umbral Pickaxe",
       "item.vanilla_additions_by_trapp.umbralknight_spawn_egg": "Umbral knight Spawn Egg",
       "item.vanilla_additions_by_trapp.firestone_axe": "Firestone Axe",
@@ -1719,6 +1854,7 @@
       "item.vanilla_additions_by_trapp.cdiamondarmor_1_helmet": "Compressed Diamond Helmet",
       "item.minecraft.tipped_arrow.effect.lastchance": "Arrow of Last chance",
       "item.vanilla_additions_by_trapp.cdiamondarmor_1_leggings": "Compressed Diamond Leggings",
+      "item.vanilla_additions_by_trapp.homer_spawn_egg": "Homer Spawn Egg",
       "item.vanilla_additions_by_trapp.hardstone_armor_leggings": "Hardstone Leggings",
       "item.minecraft.lingering_potion.effect.lastchance": "Lingering Potion of Last chance",
       "item.vanilla_additions_by_trapp.skystone_pickaxe": "Skystone Pickaxe",

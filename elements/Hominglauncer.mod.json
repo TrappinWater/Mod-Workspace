@@ -1,0 +1,43 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "skystone",
+    "customModelName": "Normal",
+    "name": "Homing launcer",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "block.beacon.power_select"
+    },
+    "hasGlow": true,
+    "animation": "drink",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 5.0,
+    "onRangedItemUsed": {
+      "name": "HominglauncerRangedItemUsed"
+    },
+    "bulletPower": 1.2,
+    "bulletDamage": 1.0,
+    "bulletKnockback": 2,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Blocks.CONCRETE#14"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "red.png",
+    "onBulletHitsBlock": {
+      "name": "HominglauncerRangedItemUsed"
+    }
+  }
+}
