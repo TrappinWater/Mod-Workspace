@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vanilla_additions_by_trapp:blocks/rustscrap",
+    "up": "vanilla_additions_by_trapp:blocks/rustscrap",
+    "north": "vanilla_additions_by_trapp:blocks/rustscrap",
+    "east": "vanilla_additions_by_trapp:blocks/rustscrap",
+    "south": "vanilla_additions_by_trapp:blocks/rustscrap",
+    "west": "vanilla_additions_by_trapp:blocks/rustscrap",
+    "particle": "vanilla_additions_by_trapp:blocks/rustscrap"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "vanilla_additions_by_trapp",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "vanilla_additions_by_trapp:processedfirestone"
+    },
+    "1": {
+      "item": "vanilla_additions_by_trapp:processedfirestone"
+    },
+    "2": {
+      "item": "vanilla_additions_by_trapp:processedfirestone"
+    },
+    "3": {
+      "item": "vanilla_additions_by_trapp:processedfirestone"
+    },
+    "4": {
+      "item": "vanilla_additions_by_trapp:processedfirestone"
+    },
+    "5": {
+      "item": "vanilla_additions_by_trapp:processedfirestone"
+    },
+    "6": {
+      "item": "minecraft:lava_bucket"
+    },
+    "7": {
+      "item": "minecraft:lava_bucket"
+    },
+    "8": {
+      "item": "minecraft:lava_bucket"
+    }
+  },
+  "result": {
+    "item": "vanilla_additions_by_trapp:inactivehyperfuel",
+    "count": 1
+  }
+}

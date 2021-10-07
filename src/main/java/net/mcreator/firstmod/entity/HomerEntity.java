@@ -204,6 +204,10 @@ public class HomerEntity extends VanillaAdditionsByTrappModElements.ModElement {
 				return false;
 			if (source == DamageSource.DRAGON_BREATH)
 				return false;
+			if (source == DamageSource.WITHER)
+				return false;
+			if (source.getDamageType().equals("witherSkull"))
+				return false;
 			return super.attackEntityFrom(source, amount);
 		}
 

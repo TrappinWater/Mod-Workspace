@@ -1,0 +1,26 @@
+{
+  "group": "vanilla_additions_by_trapp",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_block"
+    },
+    "1": {
+      "item": "minecraft:iron_block"
+    },
+    "2": {
+      "item": "minecraft:coal_block"
+    },
+    "3": {
+      "item": "minecraft:coal_block"
+    }
+  },
+  "result": {
+    "item": "vanilla_additions_by_trapp:steelplate",
+    "count": 4
+  }
+}

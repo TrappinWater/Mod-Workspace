@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vanilla_additions_by_trapp:blocks/fuelcellbottom",
+    "up": "vanilla_additions_by_trapp:blocks/fuelcelltop",
+    "north": "vanilla_additions_by_trapp:blocks/fuelcellside",
+    "east": "vanilla_additions_by_trapp:blocks/fuelcellside",
+    "south": "vanilla_additions_by_trapp:blocks/fuelcellside",
+    "west": "vanilla_additions_by_trapp:blocks/fuelcellside",
+    "particle": "vanilla_additions_by_trapp:blocks/fuelcellbottom"
+  }
+}

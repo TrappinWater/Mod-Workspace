@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vanilla_additions_by_trapp:blocks/wastecontainerbottom",
+    "up": "vanilla_additions_by_trapp:blocks/wastecontainertop",
+    "north": "vanilla_additions_by_trapp:blocks/wastecontainerside",
+    "east": "vanilla_additions_by_trapp:blocks/wastecontainerside",
+    "south": "vanilla_additions_by_trapp:blocks/wastecontainerside",
+    "west": "vanilla_additions_by_trapp:blocks/wastecontainerside",
+    "particle": "vanilla_additions_by_trapp:blocks/wastecontainerbottom"
+  }
+}

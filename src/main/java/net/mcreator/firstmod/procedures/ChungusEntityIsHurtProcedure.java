@@ -72,7 +72,7 @@ public class ChungusEntityIsHurtProcedure {
 
 			private void run() {
 				if (world instanceof World && !((World) world).isRemote) {
-					((World) world).createExplosion(null, (int) x, (int) y, (int) z, (float) 8, Explosion.Mode.NONE);
+					((World) world).createExplosion(null, (int) x, (int) y, (int) z, (float) 12, Explosion.Mode.DESTROY);
 				}
 				MinecraftForge.EVENT_BUS.unregister(this);
 			}

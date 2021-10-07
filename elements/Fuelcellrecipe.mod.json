@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Reinforcedsteel"
+      },
+      {
+        "value": "CUSTOM:Inactivehyperfuel"
+      },
+      {
+        "value": "CUSTOM:Reinforcedsteel"
+      },
+      {
+        "value": "Blocks.GLASS_PANE"
+      },
+      {
+        "value": "CUSTOM:Inactivehyperfuel"
+      },
+      {
+        "value": "Blocks.GLASS_PANE"
+      },
+      {
+        "value": "CUSTOM:Reinforcedsteel"
+      },
+      {
+        "value": "Blocks.REDSTONE_BLOCK"
+      },
+      {
+        "value": "CUSTOM:Reinforcedsteel"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Fuelcell"
+    },
+    "name": "fuelcellrecipe",
+    "namespace": "mod"
+  }
+}

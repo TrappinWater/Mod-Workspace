@@ -111,11 +111,117 @@
     "rangedItemType": "Default item",
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 4,
+    "spawningProbability": 3,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 3,
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Umbralplains"
+      },
+      {
+        "value": "badlands"
+      },
+      {
+        "value": "badlands_plateau"
+      },
+      {
+        "value": "bamboo_jungle"
+      },
+      {
+        "value": "bamboo_jungle_hills"
+      },
+      {
+        "value": "basalt_deltas"
+      },
+      {
+        "value": "beaches"
+      },
+      {
+        "value": "birch_forest"
+      },
+      {
+        "value": "birch_forest_hills"
+      },
+      {
+        "value": "crimson_forest"
+      },
+      {
+        "value": "roofed_forest"
+      },
+      {
+        "value": "mutated_roofed_forest"
+      },
+      {
+        "value": "desert"
+      },
+      {
+        "value": "desert_hills"
+      },
+      {
+        "value": "mutated_desert"
+      },
+      {
+        "value": "end_highlands"
+      },
+      {
+        "value": "mutated_mesa"
+      },
+      {
+        "value": "mutated_forest"
+      },
+      {
+        "value": "forest"
+      },
+      {
+        "value": "forest_hills"
+      },
+      {
+        "value": "frozen_river"
+      },
+      {
+        "value": "mutated_redwood_taiga"
+      },
+      {
+        "value": "mutated_redwood_taiga_hills"
+      },
+      {
+        "value": "redwood_taiga_hills"
+      },
+      {
+        "value": "mutated_extreme_hills"
+      },
+      {
+        "value": "mutated_ice_flats"
+      },
+      {
+        "value": "jungle"
+      },
+      {
+        "value": "jungle_edge"
+      },
+      {
+        "value": "jungle_hills"
+      },
+      {
+        "value": "mutated_mesa_clear_rock"
+      },
+      {
+        "value": "mountains"
+      },
+      {
+        "value": "plains"
+      },
+      {
+        "value": "savanna"
+      },
+      {
+        "value": "the_end"
+      },
+      {
+        "value": "soul_sand_valley"
+      }
+    ],
     "spawnInDungeons": true
   }
 }

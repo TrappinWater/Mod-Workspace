@@ -72,7 +72,80 @@ public class UmbralknightEntity extends VanillaAdditionsByTrappModElements.ModEl
 
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
-		event.getSpawns().getSpawner(EntityClassification.MONSTER).add(new MobSpawnInfo.Spawners(entity, 4, 1, 3));
+		boolean biomeCriteria = false;
+		if (new ResourceLocation("vanilla_additions_by_trapp:umbralplains").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("badlands").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("badlands_plateau").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("bamboo_jungle").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("bamboo_jungle_hills").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("basalt_deltas").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("beach").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("birch_forest").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("birch_forest_hills").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("crimson_forest").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("dark_forest").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("dark_forest_hills").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("desert").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("desert_hills").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("desert_lakes").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("end_highlands").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("eroded_badlands").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("flower_forest").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("forest").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("wooded_hills").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("frozen_river").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("giant_spruce_taiga").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("giant_spruce_taiga_hills").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("giant_tree_taiga_hills").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("gravelly_mountains").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("ice_spikes").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("jungle").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("jungle_edge").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("jungle_hills").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("modified_badlands_plateau").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("mountains").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("plains").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("savanna").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("the_end").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("soul_sand_valley").equals(event.getName()))
+			biomeCriteria = true;
+		if (!biomeCriteria)
+			return;
+		event.getSpawns().getSpawner(EntityClassification.MONSTER).add(new MobSpawnInfo.Spawners(entity, 3, 1, 3));
 	}
 
 	@Override

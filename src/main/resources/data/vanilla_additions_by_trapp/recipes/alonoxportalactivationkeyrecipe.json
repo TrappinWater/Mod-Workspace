@@ -1,0 +1,27 @@
+{
+  "group": "vanilla_additions_by_trapp",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 ",
+    "23",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "item": "vanilla_additions_by_trapp:steelplate"
+    },
+    "2": {
+      "item": "vanilla_additions_by_trapp:compresseddiamond"
+    },
+    "3": {
+      "item": "minecraft:redstone_block"
+    },
+    "4": {
+      "item": "vanilla_additions_by_trapp:steelplate"
+    }
+  },
+  "result": {
+    "item": "vanilla_additions_by_trapp:alonox",
+    "count": 1
+  }
+}

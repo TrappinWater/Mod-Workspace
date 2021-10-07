@@ -1774,6 +1774,700 @@
           }
         ]
       }
+    },
+    {
+      "name": "ChungusEntityFalls",
+      "type": "procedure",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chungus_entity_falls",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChungusOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chungus_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChungusEntityIsHurt3",
+      "type": "procedure",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chungus_entity_is_hurt_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChungusOnEntityTickUpdate9",
+      "type": "procedure",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chungus_on_entity_tick_update_9",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Reinforcedsteel",
+      "type": "block",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reinforcedsteel"
+    },
+    {
+      "name": "ToxicwasteMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toxicwaste_mobplayer_collides_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Toxicwaste",
+      "type": "fluid",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toxicwaste",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "SalvageBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salvage_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Salvage",
+      "type": "block",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salvage"
+    },
+    {
+      "name": "Alonoxportalframe",
+      "type": "block",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alonoxportalframe"
+    },
+    {
+      "name": "Alonoxplains",
+      "type": "biome",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alonoxplains"
+    },
+    {
+      "name": "Alonox",
+      "type": "dimension",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alonox",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "Rustyscrap",
+      "type": "block",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rustyscrap"
+    },
+    {
+      "name": "Rust",
+      "type": "block",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rust"
+    },
+    {
+      "name": "Rustdunes",
+      "type": "biome",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rustdunes"
+    },
+    {
+      "name": "HyperfuelMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hyperfuel_mobplayer_collides_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hyperfuel",
+      "type": "fluid",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hyperfuel",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "FuelcellBlockDestroyed",
+      "type": "procedure",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fuelcell_block_destroyed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fuelcell",
+      "type": "block",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fuelcell"
+    },
+    {
+      "name": "AlonoxPlayerEntersDimension",
+      "type": "procedure",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alonox_player_enters_dimension",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AlonoxPlayerLeavesDimension",
+      "type": "procedure",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alonox_player_leaves_dimension",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Raresalvage",
+      "type": "block",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raresalvage"
+    },
+    {
+      "name": "Badsalvage",
+      "type": "block",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "badsalvage"
+    },
+    {
+      "name": "Raresalvage2",
+      "type": "block",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raresalvage_2"
+    },
+    {
+      "name": "Badsalvage2",
+      "type": "block",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "badsalvage_2"
+    },
+    {
+      "name": "Raresalvage3",
+      "type": "block",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raresalvage_3"
+    },
+    {
+      "name": "Processedfirestone",
+      "type": "item",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "processedfirestone"
+    },
+    {
+      "name": "Inactivehyperfuel",
+      "type": "item",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "inactivehyperfuel"
+    },
+    {
+      "name": "Processedfirestonerecipe",
+      "type": "recipe",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "processedfirestonerecipe"
+    },
+    {
+      "name": "Inactivehyperfuelrecipe",
+      "type": "recipe",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "inactivehyperfuelrecipe"
+    },
+    {
+      "name": "Fuelcellrecipe",
+      "type": "recipe",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fuelcellrecipe"
+    },
+    {
+      "name": "PurifiermaskHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purifiermask_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Purifiermask",
+      "type": "armor",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purifiermask",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "Purifiermaskrecipe",
+      "type": "recipe",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purifiermaskrecipe"
+    },
+    {
+      "name": "Pollutedsteel",
+      "type": "block",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pollutedsteel"
+    },
+    {
+      "name": "RustClientDisplayRandomTick",
+      "type": "procedure",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rust_client_display_random_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OppEntityDies",
+      "type": "procedure",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opp_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OppOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opp_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Opp",
+      "type": "livingentity",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opp"
+    },
+    {
+      "name": "Alonoxblock",
+      "type": "procedure",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alonoxblock",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hazardoussalvage",
+      "type": "block",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hazardoussalvage"
+    },
+    {
+      "name": "HazardoussalvageBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hazardoussalvage_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Irradiatedsalvage",
+      "type": "block",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "irradiatedsalvage"
+    },
+    {
+      "name": "NoxiteItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "noxite_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Noxite",
+      "type": "item",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "noxite"
+    },
+    {
+      "name": "Steelplate",
+      "type": "item",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steelplate"
+    },
+    {
+      "name": "Steelplaterecipe",
+      "type": "recipe",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steelplaterecipe"
+    },
+    {
+      "name": "Steelblockrecipe",
+      "type": "recipe",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steelblockrecipe"
+    },
+    {
+      "name": "Alonoxportalframerecipe",
+      "type": "recipe",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alonoxportalframerecipe"
+    },
+    {
+      "name": "Alonoxportalactivationkeyrecipe",
+      "type": "recipe",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alonoxportalactivationkeyrecipe"
+    },
+    {
+      "name": "Toxicwastecontainer",
+      "type": "block",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toxicwastecontainer"
     }
   ],
   "variable_elements": [],
@@ -1781,25 +2475,28 @@
   "language_map": {
     "en_us": {
       "item.vanilla_additions_by_trapp.hominglauncer": "Homing launcer",
-      "item.vanilla_additions_by_trapp.umbralstone_hoe": "Umbral Hoe",
       "item.vanilla_additions_by_trapp.skystone_shovel": "Skystone Shovel",
-      "item.vanilla_additions_by_trapp.brightstoneitem": "Brightstone",
+      "item.vanilla_additions_by_trapp.umbralstone_hoe": "Umbral Hoe",
       "item.vanilla_additions_by_trapp.umbralstone_shovel": "Umbral Shovel",
+      "item.vanilla_additions_by_trapp.brightstoneitem": "Brightstone",
       "entity.vanilla_additions_by_trapp.homer": "Homer",
       "item.vanilla_additions_by_trapp.hardstone_armor_chestplate": "Hardstone Chestplate",
-      "item.vanilla_additions_by_trapp.sea_stone_armor_helmet": "Sea Stone Helmet",
       "item.vanilla_additions_by_trapp.redstone_armor_boots": "Redstone Boots",
+      "item.vanilla_additions_by_trapp.sea_stone_armor_helmet": "Sea Stone Helmet",
+      "item.vanilla_additions_by_trapp.purifiermask_leggings": "Purifiermask Leggings",
       "item.vanilla_additions_by_trapp.sea_stone_armor_leggings": "Sea Stone Leggings",
+      "block.vanilla_additions_by_trapp.toxicwastecontainer": "Fuel cell",
       "item.first_mod.cdiamondarmor_1_chestplate": "Compressed Diamond Chestplate",
       "item.vanilla_additions_by_trapp.compresseddiamondaxe": "Compressed Diamond Axe",
       "block.vanilla_additions_by_trapp.umbraldeepearth": "Umbraldeepearth",
+      "block.vanilla_additions_by_trapp.rust": "Rust",
       "block.vanilla_additions_by_trapp.umbralwood": "Umbralwood",
       "item.vanilla_additions_by_trapp.cdiamondarmor_1_chestplate": "Compressed Diamond Chestplate",
-      "item.vanilla_additions_by_trapp.umbral_stone_armor_leggings": "Umbral Leggings",
       "block.vanilla_additions_by_trapp.hardstoneblock": "Block of Hardstone",
+      "item.vanilla_additions_by_trapp.umbral_stone_armor_leggings": "Umbral Leggings",
       "item.vanilla_additions_by_trapp.hardstone_sword": "Hardstone Sword",
-      "item.vanilla_additions_by_trapp.cdiamondarmor_1_boots": "Compressed Diamond Boots",
       "block.vanilla_additions_by_trapp.umbralore": "Umbralore",
+      "item.vanilla_additions_by_trapp.cdiamondarmor_1_boots": "Compressed Diamond Boots",
       "item.minecraft.lingering_potion.effect.slushie": "Lingering Potion of Slushie",
       "item.vanilla_additions_by_trapp.firestone_sword": "Firestone Sword",
       "item.vanilla_additions_by_trapp.compresseddiamond": "Compressed Diamond",
@@ -1809,66 +2506,96 @@
       "item.minecraft.tipped_arrow.effect.slushie": "Arrow of Slushie",
       "item.vanilla_additions_by_trapp.chungus_spawn_egg": "Chungus Spawn Egg",
       "item.vanilla_additions_by_trapp.compresseddiamondpickaxe": "Compressed Diamond Pickaxe",
+      "block.vanilla_additions_by_trapp.fuelcell": "Fuel cell",
       "item.vanilla_additions_by_trapp.hardstone_axe": "Hardstone Axe",
-      "item.vanilla_additions_by_trapp.compresseddiamondshovel": "Compressed Diamond Shovel",
+      "block.vanilla_additions_by_trapp.salvage": "Salvage",
       "item.first_mod.compresseddiamondhoe": "Compressed Diamond Hoe",
+      "item.vanilla_additions_by_trapp.compresseddiamondshovel": "Compressed Diamond Shovel",
       "item.vanilla_additions_by_trapp.firestone_shovel": "Firestone Shovel",
       "fluid.vanilla_additions_by_trapp.umbralessence": "Umbralessence",
       "item.minecraft.potion.effect.slushie": "Slushie",
       "item.vanilla_additions_by_trapp.staffoftheearth": "Staff of the earth",
       "item.vanilla_additions_by_trapp.skystone_axe": "Skystone Axe",
       "item.vanilla_additions_by_trapp.redstone_armor_chestplate": "Redstone Chestplate",
+      "item.vanilla_additions_by_trapp.alonox": "Alonox Portal activation key",
+      "block.vanilla_additions_by_trapp.hyperfuel": "Hyperfuel",
       "item.vanilla_additions_by_trapp.hardstone_armor_helmet": "Hardstone Helmet",
+      "block.vanilla_additions_by_trapp.badsalvage": "Salvage",
       "entity.vanilla_additions_by_trapp.testarcher": "Testarcher",
       "block.vanilla_additions_by_trapp.compresseddiorite": "Compressed Diorite",
       "item.vanilla_additions_by_trapp.skystoneitem": "Skystone",
+      "item.vanilla_additions_by_trapp.opp_spawn_egg": "Opp Spawn Egg",
       "item.vanilla_additions_by_trapp.staffofwind": "Staff of wind",
       "item.vanilla_additions_by_trapp.projectile_1": "Staff of destruction",
-      "block.vanilla_additions_by_trapp.compressedgranite": "Compressed Granite",
       "item.vanilla_additions_by_trapp.hardstone_armor_boots": "Hardstone Boots",
+      "block.vanilla_additions_by_trapp.compressedgranite": "Compressed Granite",
+      "block.vanilla_additions_by_trapp.reinforcedsteel": "Reinforced steel block",
       "block.vanilla_additions_by_trapp.compressedandesite": "Compressed Andesite",
       "effect.effect_2": "Last chance",
       "effect.effect_1": "Frozen",
       "item.vanilla_additions_by_trapp.redstone_armor_leggings": "Redstone Leggings",
       "item.vanilla_additions_by_trapp.sea_stone_armor_chestplate": "Sea Stone Chestplate",
       "item.vanilla_additions_by_trapp.skystone_sword": "Skystone Sword",
+      "entity.vanilla_additions_by_trapp.opp": "Opp",
       "item.vanilla_additions_by_trapp.umbral_stone_armor_helmet": "Umbral Helmet",
+      "item.vanilla_additions_by_trapp.purifiermask_chestplate": "Purifiermask Body",
+      "block.vanilla_additions_by_trapp.badsalvage_2": "Salvage",
       "item.first_mod.compresseddiamondpickaxe": "Compressed Diamond Pickaxe",
+      "item.vanilla_additions_by_trapp.noxite": "Noxite",
       "item.vanilla_additions_by_trapp.hardstone_pickaxe": "Hardstone Pickaxe",
       "item.vanilla_additions_by_trapp.compresseddiamondsword": "Compressed Diamond Sword",
+      "block.vanilla_additions_by_trapp.raresalvage": "Salvage",
       "item.vanilla_additions_by_trapp.compresseddiamondhoe": "Compressed Diamond Hoe",
       "item.vanilla_additions_by_trapp.umbral_sword": "Umbral Sword",
       "entity.vanilla_additions_by_trapp.chungus": "Chungus",
       "item.vanilla_additions_by_trapp.umbralstone_pickaxe": "Umbral Pickaxe",
       "item.vanilla_additions_by_trapp.umbralknight_spawn_egg": "Umbral knight Spawn Egg",
+      "block.vanilla_additions_by_trapp.toxicwaste": "Toxic waste",
+      "biome.vanilla_additions_by_trapp.rustdunes": "Rust dunes",
       "item.vanilla_additions_by_trapp.firestone_axe": "Firestone Axe",
       "item.vanilla_additions_by_trapp.umbral_stone_armor_boots": "Umbral Boots",
+      "block.vanilla_additions_by_trapp.hazardoussalvage": "Salvage",
       "item.first_mod.compresseddiamondshovel": "Compressed Diamond Shovel",
       "block.vanilla_additions_by_trapp.firestoneore": "Firestone",
       "block.vanilla_additions_by_trapp.brightstoneore": "Brightstone Ore",
       "item.vanilla_additions_by_trapp.umbralstoneitem": "Umbral Stone",
+      "fluid.vanilla_additions_by_trapp.hyperfuel": "Hyperfuel",
+      "biome.vanilla_additions_by_trapp.alonoxplains": "Alonox plains",
       "item.vanilla_additions_by_trapp.sea_stone_armor_boots": "Sea Stone Boots",
+      "item.vanilla_additions_by_trapp.purifiermask_helmet": "Purifier mask",
       "item.vanilla_additions_by_trapp.hardstonechunk": "Hardstone Chunk",
       "item.vanilla_additions_by_trapp.firestoneingot": "Firestoneingot",
+      "item.vanilla_additions_by_trapp.steelplate": "Steel plate",
       "item.vanilla_additions_by_trapp.seastoneitem": "Sea Stone",
+      "item.vanilla_additions_by_trapp.processedfirestone": "Processed firestone",
       "item.vanilla_additions_by_trapp.cdiamondarmor_1_helmet": "Compressed Diamond Helmet",
       "item.minecraft.tipped_arrow.effect.lastchance": "Arrow of Last chance",
+      "block.vanilla_additions_by_trapp.raresalvage_3": "Salvage",
+      "block.vanilla_additions_by_trapp.raresalvage_2": "Salvage",
       "item.vanilla_additions_by_trapp.cdiamondarmor_1_leggings": "Compressed Diamond Leggings",
       "item.vanilla_additions_by_trapp.homer_spawn_egg": "Homer Spawn Egg",
       "item.vanilla_additions_by_trapp.hardstone_armor_leggings": "Hardstone Leggings",
       "item.minecraft.lingering_potion.effect.lastchance": "Lingering Potion of Last chance",
       "item.vanilla_additions_by_trapp.skystone_pickaxe": "Skystone Pickaxe",
+      "block.vanilla_additions_by_trapp.irradiatedsalvage": "Salvage",
       "item.vanilla_additions_by_trapp.firestone_pickaxe": "Firestone Pickaxe",
+      "item.vanilla_additions_by_trapp.toxicwaste_bucket": "Toxic waste Bucket",
       "item.first_mod.compresseddiamondsword": "Compressed Diamond Sword",
       "item.first_mod.cdiamondarmor_1_boots": "Compressed Diamond Boots",
+      "fluid.vanilla_additions_by_trapp.toxicwaste": "Toxic waste",
+      "item.vanilla_additions_by_trapp.purifiermask_boots": "Purifiermask Boots",
       "item.vanilla_additions_by_trapp.hardstone_shovel": "Hardstone Shovel",
       "block.vanilla_additions_by_trapp.umbralessence": "Umbralessence",
+      "block.vanilla_additions_by_trapp.pollutedsteel": "Reinforced steel block",
+      "block.vanilla_additions_by_trapp.rustyscrap": "Rusty scrap",
       "item.first_mod.cdiamondarmor_1_helmet": "Compressed Diamond Helmet",
+      "item.vanilla_additions_by_trapp.inactivehyperfuel": "Inactive hyperfuel",
       "item.vanilla_additions_by_trapp.umbralessence_bucket": "Umbral essence Bucket",
       "item.vanilla_additions_by_trapp.staffofthunder": "Staff of thunder",
       "item.vanilla_additions_by_trapp.testarcher_spawn_egg": "Testarcher Spawn Egg",
       "item.vanilla_additions_by_trapp.umbralstone_axe": "Umbral Axe",
       "item.vanilla_additions_by_trapp.doooooooooom": "Ultimate staff of destruction",
+      "block.vanilla_additions_by_trapp.alonoxportalframe": "Alonox portal frame",
       "item.vanilla_additions_by_trapp.umbra": "Umbral Igniter",
       "item.vanilla_additions_by_trapp.firestone_hoe": "Firestone Hoe",
       "item.vanilla_additions_by_trapp.redstone_armor_helmet": "Redstone Helmet",
@@ -1877,6 +2604,7 @@
       "item.minecraft.splash_potion.effect.slushie": "Splash Potion of Slushie",
       "item.vanilla_additions_by_trapp.umbral_stone_armor_chestplate": "Umbral Chestplate",
       "block.vanilla_additions_by_trapp.skystoneore": "Skystoneore",
+      "item.vanilla_additions_by_trapp.hyperfuel_bucket": "Hyperfuel Bucket",
       "item.vanilla_additions_by_trapp.skystone_hoe": "Skystone Hoe",
       "entity.vanilla_additions_by_trapp.umbralknight": "Umbral knight",
       "item.minecraft.splash_potion.effect.lastchance": "Splash Potion of Last chance",

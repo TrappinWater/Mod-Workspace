@@ -1,0 +1,12 @@
+{
+  "group": "vanilla_additions_by_trapp",
+  "type": "minecraft:blasting",
+  "experience": 40,
+  "cookingtime": 1000,
+  "ingredient": {
+    "item": "vanilla_additions_by_trapp:firestoneingot"
+  },
+  "result": {
+    "item": "vanilla_additions_by_trapp:processedfirestone"
+  }
+}

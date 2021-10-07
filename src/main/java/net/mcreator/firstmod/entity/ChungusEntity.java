@@ -17,7 +17,6 @@ import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.projectile.PotionEntity;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
 import net.minecraft.entity.ai.goal.NearestAttackableTargetGoal;
@@ -32,7 +31,10 @@ import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.CreatureAttribute;
 
+import net.mcreator.firstmod.procedures.ChungusOnEntityTickUpdateProcedure;
+import net.mcreator.firstmod.procedures.ChungusOnEntityTickUpdate9Procedure;
 import net.mcreator.firstmod.procedures.ChungusEntityIsHurtProcedure;
+import net.mcreator.firstmod.procedures.ChungusEntityIsHurt3Procedure;
 import net.mcreator.firstmod.entity.renderer.ChungusRenderer;
 import net.mcreator.firstmod.VanillaAdditionsByTrappModElements;
 
@@ -67,9 +69,9 @@ public class ChungusEntity extends VanillaAdditionsByTrappModElements.ModElement
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.25);
 			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 30);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 50);
-			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 3);
+			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 18);
 			ammma = ammma.createMutableAttribute(Attributes.KNOCKBACK_RESISTANCE, 60);
-			ammma = ammma.createMutableAttribute(Attributes.ATTACK_KNOCKBACK, 6);
+			ammma = ammma.createMutableAttribute(Attributes.ATTACK_KNOCKBACK, 1);
 			event.put(entity, ammma.create());
 		}
 	}
@@ -97,7 +99,7 @@ public class ChungusEntity extends VanillaAdditionsByTrappModElements.ModElement
 			this.targetSelector.addGoal(2, new HurtByTargetGoal(this));
 			this.goalSelector.addGoal(3, new RandomWalkingGoal(this, 0.8));
 			this.goalSelector.addGoal(4, new LookRandomlyGoal(this));
-			this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, PlayerEntity.class, false, false));
+			this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, ChungusEntity.CustomEntity.class, false, false));
 		}
 
 		@Override
@@ -124,11 +126,9 @@ public class ChungusEntity extends VanillaAdditionsByTrappModElements.ModElement
 			Entity sourceentity = source.getTrueSource();
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
+				$_dependencies.put("entity", entity);
 				$_dependencies.put("world", world);
-				ChungusEntityIsHurtProcedure.executeProcedure($_dependencies);
+				ChungusEntityIsHurt3Procedure.executeProcedure($_dependencies);
 			}
 			if (source.getImmediateSource() instanceof PotionEntity)
 				return false;
@@ -138,15 +138,68 @@ public class ChungusEntity extends VanillaAdditionsByTrappModElements.ModElement
 				return false;
 			if (source == DamageSource.DROWN)
 				return false;
+			if (source == DamageSource.LIGHTNING_BOLT)
+				return false;
 			if (source.isExplosion())
 				return false;
 			if (source == DamageSource.ANVIL)
+				return false;
+			if (source == DamageSource.DRAGON_BREATH)
 				return false;
 			if (source == DamageSource.WITHER)
 				return false;
 			if (source.getDamageType().equals("witherSkull"))
 				return false;
 			return super.attackEntityFrom(source, amount);
+		}
+
+		@Override
+		public void onDeath(DamageSource source) {
+			super.onDeath(source);
+			double x = this.getPosX();
+			double y = this.getPosY();
+			double z = this.getPosZ();
+			Entity sourceentity = source.getTrueSource();
+			Entity entity = this;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ChungusEntityIsHurtProcedure.executeProcedure($_dependencies);
+			}
+		}
+
+		@Override
+		public void awardKillScore(Entity entity, int score, DamageSource damageSource) {
+			super.awardKillScore(entity, score, damageSource);
+			double x = this.getPosX();
+			double y = this.getPosY();
+			double z = this.getPosZ();
+			Entity sourceentity = this;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ChungusOnEntityTickUpdateProcedure.executeProcedure($_dependencies);
+			}
+		}
+
+		@Override
+		public void baseTick() {
+			super.baseTick();
+			double x = this.getPosX();
+			double y = this.getPosY();
+			double z = this.getPosZ();
+			Entity entity = this;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ChungusOnEntityTickUpdate9Procedure.executeProcedure($_dependencies);
+			}
 		}
 	}
 }

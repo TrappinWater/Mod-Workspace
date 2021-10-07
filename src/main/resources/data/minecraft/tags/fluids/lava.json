@@ -1,4 +1,7 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "vanilla_additions_by_trapp:hyperfuel",
+    "vanilla_additions_by_trapp:hyperfuel_flowing"
+  ]
 }
