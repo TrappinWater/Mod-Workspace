@@ -67,7 +67,7 @@ public class ToxicwastecontainerBlock extends VanillaAdditionsByTrappModElements
 	}
 	public static class CustomBlock extends FallingBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.GLASS).sound(SoundType.GLASS).hardnessAndResistance(0.4f, 0f).setLightLevel(s -> 15)
+			super(Block.Properties.create(Material.GLASS).sound(SoundType.GLASS).hardnessAndResistance(0.4f, 0f).setLightLevel(s -> 0)
 					.setNeedsPostProcessing((bs, br, bp) -> true).setEmmisiveRendering((bs, br, bp) -> true));
 			setRegistryName("toxicwastecontainer");
 		}

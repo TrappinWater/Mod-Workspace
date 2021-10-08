@@ -18,7 +18,7 @@ public class NoxiteItemInInventoryTickProcedure {
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.HUNGER, (int) 140, (int) 1));
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.HUNGER, (int) 200, (int) 1));
 		if (entity instanceof LivingEntity) {
 			((LivingEntity) entity).removePotionEffect(Effects.REGENERATION);
 		}

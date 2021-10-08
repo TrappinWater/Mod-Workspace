@@ -1,0 +1,12 @@
+{
+  "group": "vanilla_additions_by_trapp",
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "cookingtime": 5000,
+  "ingredient": {
+    "item": "vanilla_additions_by_trapp:noxite"
+  },
+  "result": {
+    "item": "vanilla_additions_by_trapp:purifiednoxite"
+  }
+}

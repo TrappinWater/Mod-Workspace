@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Fuel cell",
+    "name": "Toxic waste container",
     "specialInfo": [],
     "hardness": 0.4,
     "resistance": 0.0,
@@ -94,7 +94,7 @@
     "fallSound": {
       "value": ""
     },
-    "luminance": 15,
+    "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "spawnParticles": false,
