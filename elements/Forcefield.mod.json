@@ -1,0 +1,70 @@
+{
+  "_fv": 24,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "empty",
+    "enableBody": true,
+    "textureBody": "empty",
+    "enableLeggings": true,
+    "textureLeggings": "empty",
+    "enableBoots": true,
+    "textureBoots": "empty",
+    "onHelmetTick": {
+      "name": "ForcefieldBodyTickEvent"
+    },
+    "onBodyTick": {
+      "name": "ForcefieldBodyTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "ForcefieldBodyTickEvent"
+    },
+    "onBootsTick": {
+      "name": "ForcefieldBodyTickEvent"
+    },
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "shield",
+    "helmetName": "Forcefield Helmet",
+    "bodyName": "Forcefield",
+    "leggingsName": "Forcefield Leggings",
+    "bootsName": "Forcefield Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 1,
+    "damageValueHelmet": 90,
+    "damageValueBody": 90,
+    "damageValueLeggings": 90,
+    "damageValueBoots": 90,
+    "enchantability": 62,
+    "toughness": 10.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "block.beacon.activate"
+    },
+    "repairItems": []
+  }
+}

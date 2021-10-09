@@ -1,0 +1,42 @@
+{
+  "group": "vanilla_additions_by_trapp",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "vanilla_additions_by_trapp:umbralwood"
+    },
+    "1": {
+      "item": "vanilla_additions_by_trapp:hardstoneblock"
+    },
+    "2": {
+      "item": "vanilla_additions_by_trapp:umbralwood"
+    },
+    "3": {
+      "item": "vanilla_additions_by_trapp:umbralearth"
+    },
+    "4": {
+      "item": "minecraft:water_bucket"
+    },
+    "5": {
+      "item": "vanilla_additions_by_trapp:umbralearth"
+    },
+    "6": {
+      "item": "vanilla_additions_by_trapp:umbralwood"
+    },
+    "7": {
+      "item": "vanilla_additions_by_trapp:hardstoneblock"
+    },
+    "8": {
+      "item": "vanilla_additions_by_trapp:umbralwood"
+    }
+  },
+  "result": {
+    "item": "vanilla_additions_by_trapp:buddingdarkrot",
+    "count": 1
+  }
+}

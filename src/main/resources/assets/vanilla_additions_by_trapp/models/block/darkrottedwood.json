@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vanilla_additions_by_trapp:blocks/darkrotwood",
+    "up": "vanilla_additions_by_trapp:blocks/darkrotwood",
+    "north": "vanilla_additions_by_trapp:blocks/darkrotwood",
+    "east": "vanilla_additions_by_trapp:blocks/darkrotwood",
+    "south": "vanilla_additions_by_trapp:blocks/darkrotwood",
+    "west": "vanilla_additions_by_trapp:blocks/darkrotwood",
+    "particle": "vanilla_additions_by_trapp:blocks/darkrotwood"
+  }
+}

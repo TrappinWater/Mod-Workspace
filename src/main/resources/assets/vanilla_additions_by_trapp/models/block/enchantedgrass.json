@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vanilla_additions_by_trapp:blocks/egrassbottom",
+    "up": "vanilla_additions_by_trapp:blocks/egrasstop",
+    "north": "vanilla_additions_by_trapp:blocks/egrassside",
+    "east": "vanilla_additions_by_trapp:blocks/egrassside",
+    "south": "vanilla_additions_by_trapp:blocks/egrassside",
+    "west": "vanilla_additions_by_trapp:blocks/egrassside",
+    "particle": "vanilla_additions_by_trapp:blocks/egrassbottom"
+  }
+}

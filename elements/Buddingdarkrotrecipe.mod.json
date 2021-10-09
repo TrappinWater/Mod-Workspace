@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Umbralwood"
+      },
+      {
+        "value": "CUSTOM:Hardstoneblock"
+      },
+      {
+        "value": "CUSTOM:Umbralwood"
+      },
+      {
+        "value": "CUSTOM:Umbralearth"
+      },
+      {
+        "value": "Items.WATER_BUCKET"
+      },
+      {
+        "value": "CUSTOM:Umbralearth"
+      },
+      {
+        "value": "CUSTOM:Umbralwood"
+      },
+      {
+        "value": "CUSTOM:Hardstoneblock"
+      },
+      {
+        "value": "CUSTOM:Umbralwood"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Buddingdarkrot"
+    },
+    "name": "buddingdarkrotrecipe",
+    "namespace": "mod"
+  }
+}

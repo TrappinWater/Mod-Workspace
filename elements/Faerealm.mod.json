@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Faeplains"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:Faestone"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:Mysticnectar"
+    },
+    "airColor": {
+      "value": -26113,
+      "falpha": 0.0
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "CUSTOM:Enchantedgrass"
+    },
+    "portalParticles": {
+      "value": "CRIMSON_SPORE"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": ""
+    },
+    "igniterName": "Fae realm portal activator",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "faeportaler",
+    "portalTexture": "mnflow",
+    "enablePortal": true
+  }
+}

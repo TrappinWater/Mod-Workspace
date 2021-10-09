@@ -1,0 +1,52 @@
+{
+  "_fv": 24,
+  "_type": "fluid",
+  "definition": {
+    "name": "Mystic nectar",
+    "bucketName": "Mystic nectar Bucket",
+    "textureStill": "juice3",
+    "textureFlowing": "juiceflow3",
+    "tintType": "Water",
+    "canMultiply": true,
+    "flowRate": 4,
+    "levelDecrease": 1,
+    "slopeFindDistance": 4,
+    "spawnParticles": false,
+    "dripParticle": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "flowStrength": 1.2000000000000002,
+    "luminosity": 7,
+    "density": 983,
+    "viscosity": 963,
+    "isGas": false,
+    "temperature": 280,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "emptySound": {
+      "value": ""
+    },
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "resistance": 100.0,
+    "luminance": 7,
+    "lightOpacity": 0,
+    "emissiveRendering": false,
+    "tickRate": 10,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "DEFAULT",
+    "frequencyOnChunks": 4,
+    "spawnWorldTypes": [
+      "CUSTOM:Faerealm"
+    ],
+    "restrictionBiomes": [],
+    "onEntityCollides": {
+      "name": "MysticnectarMobplayerCollidesBlock"
+    }
+  }
+}

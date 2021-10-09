@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vanilla_additions_by_trapp:blocks/faestone",
+    "up": "vanilla_additions_by_trapp:blocks/faestone",
+    "north": "vanilla_additions_by_trapp:blocks/faestone",
+    "east": "vanilla_additions_by_trapp:blocks/faestone",
+    "south": "vanilla_additions_by_trapp:blocks/faestone",
+    "west": "vanilla_additions_by_trapp:blocks/faestone",
+    "particle": "vanilla_additions_by_trapp:blocks/faestone"
+  }
+}

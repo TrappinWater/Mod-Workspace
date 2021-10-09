@@ -1,0 +1,20 @@
+{
+  "group": "vanilla_additions_by_trapp",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "vanilla_additions_by_trapp:earthernfruit"
+    },
+    "1": {
+      "item": "vanilla_additions_by_trapp:purifiednoxite"
+    }
+  },
+  "result": {
+    "item": "vanilla_additions_by_trapp:faerealm",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vanilla_additions_by_trapp:blocks/earthernfruitore",
+    "up": "vanilla_additions_by_trapp:blocks/earthernfruitore",
+    "north": "vanilla_additions_by_trapp:blocks/earthernfruitore",
+    "east": "vanilla_additions_by_trapp:blocks/earthernfruitore",
+    "south": "vanilla_additions_by_trapp:blocks/earthernfruitore",
+    "west": "vanilla_additions_by_trapp:blocks/earthernfruitore",
+    "particle": "vanilla_additions_by_trapp:blocks/earthernfruitore"
+  }
+}

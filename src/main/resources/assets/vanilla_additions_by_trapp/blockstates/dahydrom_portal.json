@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "vanilla_additions_by_trapp:block/dahydrom_portal_ew"
+    },
+    "axis=x": {
+      "model": "vanilla_additions_by_trapp:block/dahydrom_portal_ns"
+    }
+  }
+}

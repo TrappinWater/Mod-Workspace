@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vanilla_additions_by_trapp:blocks/buddingdarkrot",
+    "up": "vanilla_additions_by_trapp:blocks/buddingdarkrot",
+    "north": "vanilla_additions_by_trapp:blocks/buddingdarkrot",
+    "east": "vanilla_additions_by_trapp:blocks/buddingdarkrot",
+    "south": "vanilla_additions_by_trapp:blocks/buddingdarkrot",
+    "west": "vanilla_additions_by_trapp:blocks/buddingdarkrot",
+    "particle": "vanilla_additions_by_trapp:blocks/buddingdarkrot"
+  }
+}
