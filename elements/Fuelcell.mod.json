@@ -128,7 +128,8 @@
       "name": "FuelcellBlockDestroyed"
     },
     "spawnWorldTypes": [
-      "CUSTOM:Alonox"
+      "CUSTOM:Alonox",
+      "CUSTOM:Alozinith"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [

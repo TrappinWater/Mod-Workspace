@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vanilla_additions_by_trapp:blocks/corruptionsprout",
+    "up": "vanilla_additions_by_trapp:blocks/corruptionsprout",
+    "north": "vanilla_additions_by_trapp:blocks/corruptionsprout",
+    "east": "vanilla_additions_by_trapp:blocks/corruptionsprout",
+    "south": "vanilla_additions_by_trapp:blocks/corruptionsprout",
+    "west": "vanilla_additions_by_trapp:blocks/corruptionsprout",
+    "particle": "vanilla_additions_by_trapp:blocks/corruptionsprout"
+  }
+}

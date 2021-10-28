@@ -28,6 +28,7 @@ import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.block.Blocks;
 
+import net.mcreator.firstmod.entity.RottenEntity;
 import net.mcreator.firstmod.VanillaAdditionsByTrappModElements;
 
 @VanillaAdditionsByTrappModElements.ModElement.Tag
@@ -56,6 +57,7 @@ public class DarkrotseaBiome extends VanillaAdditionsByTrappModElements.ModEleme
 				DefaultBiomeFeatures.withFrozenTopLayer(biomeGenerationSettings);
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
 				mobSpawnInfo.withSpawner(EntityClassification.MONSTER, new MobSpawnInfo.Spawners(EntityType.DROWNED, 17, 2, 5));
+				mobSpawnInfo.withSpawner(EntityClassification.MONSTER, new MobSpawnInfo.Spawners(RottenEntity.entity, 20, 3, 6));
 				biome = new Biome.Builder().precipitation(Biome.RainType.RAIN).category(Biome.Category.OCEAN).depth(0.1f).scale(0.2f)
 						.temperature(0.5f).downfall(0.5f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
 						.withGenerationSettings(biomeGenerationSettings.build()).build();

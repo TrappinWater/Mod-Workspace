@@ -1,0 +1,42 @@
+{
+  "group": "vanilla_additions_by_trapp",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "vanilla_additions_by_trapp:darkrottedwood"
+    },
+    "1": {
+      "item": "vanilla_additions_by_trapp:darkrottedwood"
+    },
+    "2": {
+      "item": "vanilla_additions_by_trapp:darkrottedwood"
+    },
+    "3": {
+      "item": "vanilla_additions_by_trapp:darkrottedwood"
+    },
+    "4": {
+      "item": "vanilla_additions_by_trapp:corruptionseed"
+    },
+    "5": {
+      "item": "vanilla_additions_by_trapp:darkrottedwood"
+    },
+    "6": {
+      "item": "vanilla_additions_by_trapp:darkrottedwood"
+    },
+    "7": {
+      "item": "vanilla_additions_by_trapp:darkrottedwood"
+    },
+    "8": {
+      "item": "vanilla_additions_by_trapp:darkrottedwood"
+    }
+  },
+  "result": {
+    "item": "vanilla_additions_by_trapp:corruptionblock",
+    "count": 2
+  }
+}

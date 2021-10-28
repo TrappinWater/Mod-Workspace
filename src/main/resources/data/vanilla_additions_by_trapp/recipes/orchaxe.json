@@ -1,0 +1,30 @@
+{
+  "group": "vanilla_additions_by_trapp",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "vanilla_additions_by_trapp:orichalcumingot"
+    },
+    "1": {
+      "item": "vanilla_additions_by_trapp:orichalcumingot"
+    },
+    "2": {
+      "item": "vanilla_additions_by_trapp:orichalcumingot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "vanilla_additions_by_trapp:orichalcumpickaxe",
+    "count": 1
+  }
+}

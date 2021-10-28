@@ -1,0 +1,29 @@
+{
+  "group": "vanilla_additions_by_trapp",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "vanilla_additions_by_trapp:orichalcumingot"
+    },
+    "1": {
+      "item": "vanilla_additions_by_trapp:orichalcumingot"
+    },
+    "2": {
+      "item": "vanilla_additions_by_trapp:orichalcumingot"
+    },
+    "3": {
+      "item": "vanilla_additions_by_trapp:orichalcumingot"
+    },
+    "5": {
+      "item": "vanilla_additions_by_trapp:orichalcumingot"
+    }
+  },
+  "result": {
+    "item": "vanilla_additions_by_trapp:orichalcumarmor_helmet",
+    "count": 1
+  }
+}

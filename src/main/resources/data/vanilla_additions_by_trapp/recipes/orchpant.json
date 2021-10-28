@@ -1,0 +1,36 @@
+{
+  "group": "vanilla_additions_by_trapp",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "vanilla_additions_by_trapp:orichalcumingot"
+    },
+    "1": {
+      "item": "vanilla_additions_by_trapp:orichalcumingot"
+    },
+    "2": {
+      "item": "vanilla_additions_by_trapp:orichalcumingot"
+    },
+    "3": {
+      "item": "vanilla_additions_by_trapp:orichalcumingot"
+    },
+    "5": {
+      "item": "vanilla_additions_by_trapp:orichalcumingot"
+    },
+    "6": {
+      "item": "vanilla_additions_by_trapp:orichalcumingot"
+    },
+    "8": {
+      "item": "vanilla_additions_by_trapp:orichalcumingot"
+    }
+  },
+  "result": {
+    "item": "vanilla_additions_by_trapp:orichalcumarmor_leggings",
+    "count": 1
+  }
+}

@@ -159,6 +159,8 @@ public class FuelcellBlock extends VanillaAdditionsByTrappModElements.ModElement
 					boolean dimensionCriteria = false;
 					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("vanilla_additions_by_trapp:alonox")))
 						dimensionCriteria = true;
+					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("vanilla_additions_by_trapp:alozinith")))
+						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
 					return super.generate(world, generator, rand, pos, config);

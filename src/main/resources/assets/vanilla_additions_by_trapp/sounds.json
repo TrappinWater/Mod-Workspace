@@ -1,1 +1,11 @@
-{}
+{
+  "revenantsound": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "vanilla_additions_by_trapp:revenantsound",
+        "stream": false
+      }
+    ]
+  }
+}

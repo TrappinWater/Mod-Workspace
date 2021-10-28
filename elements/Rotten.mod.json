@@ -1,0 +1,128 @@
+{
+  "_fv": 24,
+  "_type": "livingentity",
+  "definition": {
+    "mobName": "Rotten",
+    "mobLabel": "",
+    "mobModelName": "Biped",
+    "mobModelTexture": "rot.png",
+    "mobModelGlowTexture": "",
+    "modelWidth": 0.6,
+    "modelHeight": 1.8,
+    "modelShadowSize": 0.5,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -16764109,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -16777165,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 9,
+    "attackKnockback": 0.1,
+    "knockbackResistance": 1.5,
+    "movementSpeed": 1.0,
+    "armorBaseValue": 0.0,
+    "trackingRange": 64,
+    "health": 45,
+    "xpAmount": 28,
+    "waterMob": true,
+    "flyingMob": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": false,
+    "immuneToCactus": false,
+    "immuneToDrowning": true,
+    "immuneToLightning": false,
+    "immuneToPotions": true,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": true,
+    "immuneToDragonBreath": false,
+    "mobDrop": {
+      "value": "CUSTOM:Buddingdarkrot"
+    },
+    "livingSound": {
+      "value": "entity.drowned.ambient_water"
+    },
+    "hurtSound": {
+      "value": ""
+    },
+    "deathSound": {
+      "value": "block.honey_block.break"
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "WATER_BUBBLE"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.2999999985098839,
+    "particleAmount": 1,
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"swim\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block><block type=\"attack_on_collide\" x=\"647\" y=\"119\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field></block><block type=\"attack_action\" x=\"651\" y=\"262\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></xml>",
+    "breedable": false,
+    "tameable": false,
+    "breedTriggerItems": [],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 24,
+    "mobSpawningType": "waterCreature",
+    "minNumberOfMobsPerGroup": 4,
+    "maxNumberOfMobsPerGroup": 4,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Darkrotsea"
+      },
+      {
+        "value": "deep_cold_ocean"
+      }
+    ],
+    "spawnInDungeons": false
+  }
+}

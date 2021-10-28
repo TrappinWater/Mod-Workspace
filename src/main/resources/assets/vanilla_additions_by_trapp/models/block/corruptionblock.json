@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vanilla_additions_by_trapp:blocks/corruption",
+    "up": "vanilla_additions_by_trapp:blocks/corruption",
+    "north": "vanilla_additions_by_trapp:blocks/corruption",
+    "east": "vanilla_additions_by_trapp:blocks/corruption",
+    "south": "vanilla_additions_by_trapp:blocks/corruption",
+    "west": "vanilla_additions_by_trapp:blocks/corruption",
+    "particle": "vanilla_additions_by_trapp:blocks/corruption"
+  }
+}

@@ -51,7 +51,7 @@ public class ChungusEntityIsHurt3Procedure {
 				if (entity instanceof LivingEntity) {
 					Entity _ent = entity;
 					if (!_ent.world.isRemote()) {
-						HominglauncerItem.shoot(_ent.world, (LivingEntity) entity, new Random(), (float) 1, (float) 0, (int) 1);
+						HominglauncerItem.shoot(_ent.world, (LivingEntity) entity, new Random(), (float) 1, (float) 0, (int) 0);
 					}
 				}
 				MinecraftForge.EVENT_BUS.unregister(this);

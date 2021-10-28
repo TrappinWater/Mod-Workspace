@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vanilla_additions_by_trapp:blocks/orichalcumore",
+    "up": "vanilla_additions_by_trapp:blocks/orichalcumore",
+    "north": "vanilla_additions_by_trapp:blocks/orichalcumore",
+    "east": "vanilla_additions_by_trapp:blocks/orichalcumore",
+    "south": "vanilla_additions_by_trapp:blocks/orichalcumore",
+    "west": "vanilla_additions_by_trapp:blocks/orichalcumore",
+    "particle": "vanilla_additions_by_trapp:blocks/orichalcumore"
+  }
+}

@@ -108,6 +108,15 @@
         "maxGroup": 5,
         "weight": 17,
         "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Rotten"
+        },
+        "minGroup": 3,
+        "maxGroup": 6,
+        "weight": 20,
+        "spawnType": "monster"
       }
     ]
   }

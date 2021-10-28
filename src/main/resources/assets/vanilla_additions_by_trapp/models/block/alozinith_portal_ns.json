@@ -1,0 +1,40 @@
+{
+  "textures": {
+    "particle": "vanilla_additions_by_trapp:blocks/juiceflow2",
+    "portal": "vanilla_additions_by_trapp:blocks/juiceflow2"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        6
+      ],
+      "to": [
+        16,
+        16,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#portal"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#portal"
+        }
+      }
+    }
+  ]
+}

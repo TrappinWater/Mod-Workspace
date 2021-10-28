@@ -3,11 +3,11 @@ package net.mcreator.firstmod.procedures;
 import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
 import net.minecraft.item.ItemStack;
+import net.minecraft.entity.passive.RabbitEntity;
 import net.minecraft.entity.item.ItemEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.firstmod.item.NoxiteItem;
-import net.mcreator.firstmod.entity.ChungusEntity;
+import net.mcreator.firstmod.item.MysteriousfruitItem;
 import net.mcreator.firstmod.VanillaAdditionsByTrappMod;
 
 import java.util.Map;
@@ -44,9 +44,9 @@ public class PlantclickProcedure {
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-		if ((entity instanceof ChungusEntity.CustomEntity)) {
+		if ((entity instanceof RabbitEntity)) {
 			if (world instanceof World && !world.isRemote()) {
-				ItemEntity entityToSpawn = new ItemEntity((World) world, x, y, z, new ItemStack(NoxiteItem.block));
+				ItemEntity entityToSpawn = new ItemEntity((World) world, x, y, z, new ItemStack(MysteriousfruitItem.block));
 				entityToSpawn.setPickupDelay((int) 10);
 				world.addEntity(entityToSpawn);
 			}

@@ -45,6 +45,8 @@ public class VanillaAdditionsByTrappModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public VanillaAdditionsByTrappModElements() {
+		sounds.put(new ResourceLocation("vanilla_additions_by_trapp", "revenantsound"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("vanilla_additions_by_trapp", "revenantsound")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("vanilla_additions_by_trapp").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

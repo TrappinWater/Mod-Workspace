@@ -12,19 +12,19 @@ import net.minecraft.client.renderer.entity.model.BipedModel;
 import net.minecraft.client.renderer.entity.layers.BipedArmorLayer;
 import net.minecraft.client.renderer.entity.BipedRenderer;
 
-import net.mcreator.firstmod.entity.ChungusEntity;
+import net.mcreator.firstmod.entity.RottenEntity;
 
 @OnlyIn(Dist.CLIENT)
-public class ChungusRenderer {
+public class RottenRenderer {
 	public static class ModelRegisterHandler {
 		@SubscribeEvent
 		@OnlyIn(Dist.CLIENT)
 		public void registerModels(ModelRegistryEvent event) {
-			RenderingRegistry.registerEntityRenderingHandler(ChungusEntity.entity, renderManager -> {
-				BipedRenderer customRender = new BipedRenderer(renderManager, new BipedModel(0), 1.5f) {
+			RenderingRegistry.registerEntityRenderingHandler(RottenEntity.entity, renderManager -> {
+				BipedRenderer customRender = new BipedRenderer(renderManager, new BipedModel(0), 0.5f) {
 					@Override
 					public ResourceLocation getEntityTexture(Entity entity) {
-						return new ResourceLocation("vanilla_additions_by_trapp:textures/eye.png");
+						return new ResourceLocation("vanilla_additions_by_trapp:textures/rot.png");
 					}
 				};
 				customRender.addLayer(new BipedArmorLayer(customRender, new BipedModel(0.5f), new BipedModel(1)));

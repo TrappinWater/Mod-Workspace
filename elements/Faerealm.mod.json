@@ -5,6 +5,24 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:Faeplains"
+      },
+      {
+        "value": "CUSTOM:Corruptedfaeplains"
+      },
+      {
+        "value": "CUSTOM:Faeplains"
+      },
+      {
+        "value": "CUSTOM:Faeplains"
+      },
+      {
+        "value": "CUSTOM:Faeplains"
+      },
+      {
+        "value": "CUSTOM:Faeplains"
+      },
+      {
+        "value": "CUSTOM:Faeplains"
       }
     ],
     "worldGenType": "Normal world gen",

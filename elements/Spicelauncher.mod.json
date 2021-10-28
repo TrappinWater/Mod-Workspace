@@ -1,0 +1,37 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "staff",
+    "customModelName": "Normal",
+    "name": "Spicelauncher",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.puffer_fish.blow_up"
+    },
+    "hasGlow": false,
+    "animation": "crossbow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 4.5,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "Blocks.FIRE"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "empty.png"
+  }
+}
