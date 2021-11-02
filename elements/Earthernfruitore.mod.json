@@ -128,11 +128,14 @@
     "blocksToReplace": [
       {
         "value": "CUSTOM:Faestone"
+      },
+      {
+        "value": "Blocks.CAVE_AIR"
       }
     ],
     "frequencyPerChunks": 9,
-    "frequencyOnChunk": 3,
+    "frequencyOnChunk": 5,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 69
   }
 }

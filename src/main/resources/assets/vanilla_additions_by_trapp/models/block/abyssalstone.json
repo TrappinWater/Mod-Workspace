@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vanilla_additions_by_trapp:blocks/black",
+    "up": "vanilla_additions_by_trapp:blocks/black",
+    "north": "vanilla_additions_by_trapp:blocks/black",
+    "east": "vanilla_additions_by_trapp:blocks/black",
+    "south": "vanilla_additions_by_trapp:blocks/black",
+    "west": "vanilla_additions_by_trapp:blocks/black",
+    "particle": "vanilla_additions_by_trapp:blocks/black"
+  }
+}

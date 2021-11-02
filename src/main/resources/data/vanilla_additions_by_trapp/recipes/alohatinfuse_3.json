@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "vanilla_additions_by_trapp:aloarmor_helmet"
+  },
+  "addition": {
+    "item": "vanilla_additions_by_trapp:electrocitereactor"
+  },
+  "result": {
+    "item": "vanilla_additions_by_trapp:aloarmor_3_helmet"
+  }
+}

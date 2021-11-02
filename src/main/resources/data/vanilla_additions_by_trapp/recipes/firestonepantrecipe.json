@@ -1,0 +1,36 @@
+{
+  "group": "vanilla_additions_by_trapp",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "vanilla_additions_by_trapp:firestoneingot"
+    },
+    "1": {
+      "item": "vanilla_additions_by_trapp:firestoneingot"
+    },
+    "2": {
+      "item": "vanilla_additions_by_trapp:firestoneingot"
+    },
+    "3": {
+      "item": "vanilla_additions_by_trapp:firestoneingot"
+    },
+    "5": {
+      "item": "vanilla_additions_by_trapp:firestoneingot"
+    },
+    "6": {
+      "item": "vanilla_additions_by_trapp:firestoneingot"
+    },
+    "8": {
+      "item": "vanilla_additions_by_trapp:firestoneingot"
+    }
+  },
+  "result": {
+    "item": "vanilla_additions_by_trapp:firestonearmor_leggings",
+    "count": 1
+  }
+}

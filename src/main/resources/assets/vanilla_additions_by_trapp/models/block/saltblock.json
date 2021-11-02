@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vanilla_additions_by_trapp:blocks/saltblock",
+    "up": "vanilla_additions_by_trapp:blocks/saltblock",
+    "north": "vanilla_additions_by_trapp:blocks/saltblock",
+    "east": "vanilla_additions_by_trapp:blocks/saltblock",
+    "south": "vanilla_additions_by_trapp:blocks/saltblock",
+    "west": "vanilla_additions_by_trapp:blocks/saltblock",
+    "particle": "vanilla_additions_by_trapp:blocks/saltblock"
+  }
+}

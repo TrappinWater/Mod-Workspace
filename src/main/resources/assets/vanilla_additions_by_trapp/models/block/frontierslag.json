@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vanilla_additions_by_trapp:blocks/slag",
+    "up": "vanilla_additions_by_trapp:blocks/slag",
+    "north": "vanilla_additions_by_trapp:blocks/slag",
+    "east": "vanilla_additions_by_trapp:blocks/slag",
+    "south": "vanilla_additions_by_trapp:blocks/slag",
+    "west": "vanilla_additions_by_trapp:blocks/slag",
+    "particle": "vanilla_additions_by_trapp:blocks/slag"
+  }
+}

@@ -114,6 +114,12 @@ public class SkystoneoreBlock extends VanillaAdditionsByTrappModElements.ModElem
 			boolean blockCriteria = false;
 			if (blockAt.getBlock() == Blocks.AIR)
 				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.AIR)
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.CAVE_AIR)
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.VOID_AIR)
+				blockCriteria = true;
 			return blockCriteria;
 		}
 
@@ -134,12 +140,14 @@ public class SkystoneoreBlock extends VanillaAdditionsByTrappModElements.ModElem
 					boolean dimensionCriteria = false;
 					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("vanilla_additions_by_trapp:umbra")))
 						dimensionCriteria = true;
+					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("vanilla_additions_by_trapp:frontier")))
+						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 5)).range(64)
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 5)).range(74)
 					.square().func_242731_b(4);
 			event.getRegistry().register(feature.setRegistryName("skystoneore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("vanilla_additions_by_trapp:skystoneore"),

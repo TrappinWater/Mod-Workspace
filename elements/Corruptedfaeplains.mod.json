@@ -2,7 +2,7 @@
   "_fv": 24,
   "_type": "biome",
   "definition": {
-    "name": "Corruptedfaeplains",
+    "name": "Corruptedplains",
     "groundBlock": {
       "value": "CUSTOM:Corruptedsoil"
     },
@@ -40,7 +40,7 @@
     "baseHeight": 0.1,
     "heightVariation": 0.2,
     "biomeType": "WARM",
-    "spawnBiome": true,
+    "spawnBiome": false,
     "biomeWeight": 2,
     "biomeDictionaryTypes": [],
     "grassPerChunk": 0,
@@ -85,6 +85,25 @@
       "Ores",
       "FrozenTopLayer"
     ],
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityWitherSkeleton"
+        },
+        "minGroup": 2,
+        "maxGroup": 5,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Revenant"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 6,
+        "spawnType": "monster"
+      }
+    ]
   }
 }

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vanilla_additions_by_trapp:blocks/alostonereactor",
+    "up": "vanilla_additions_by_trapp:blocks/alostonereactor",
+    "north": "vanilla_additions_by_trapp:blocks/alostonereactor",
+    "east": "vanilla_additions_by_trapp:blocks/alostonereactor",
+    "south": "vanilla_additions_by_trapp:blocks/alostonereactor",
+    "west": "vanilla_additions_by_trapp:blocks/alostonereactor",
+    "particle": "vanilla_additions_by_trapp:blocks/alostonereactor"
+  }
+}

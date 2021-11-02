@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vanilla_additions_by_trapp:blocks/aerociteore",
+    "up": "vanilla_additions_by_trapp:blocks/aerociteore",
+    "north": "vanilla_additions_by_trapp:blocks/aerociteore",
+    "east": "vanilla_additions_by_trapp:blocks/aerociteore",
+    "south": "vanilla_additions_by_trapp:blocks/aerociteore",
+    "west": "vanilla_additions_by_trapp:blocks/aerociteore",
+    "particle": "vanilla_additions_by_trapp:blocks/aerociteore"
+  }
+}

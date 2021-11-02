@@ -108,6 +108,9 @@ public class CorruptionsproutBlock extends VanillaAdditionsByTrappModElements.Mo
 					boolean dimensionCriteria = false;
 					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("vanilla_additions_by_trapp:faerealm")))
 						dimensionCriteria = true;
+					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY,
+							new ResourceLocation("vanilla_additions_by_trapp:corruption")))
+						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
 					return super.generate(world, generator, rand, pos, config);
@@ -124,6 +127,8 @@ public class CorruptionsproutBlock extends VanillaAdditionsByTrappModElements.Mo
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
 		boolean biomeCriteria = false;
 		if (new ResourceLocation("vanilla_additions_by_trapp:corruptedfaeplains").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("vanilla_additions_by_trapp:corruptedplains").equals(event.getName()))
 			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;

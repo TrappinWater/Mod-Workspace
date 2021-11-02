@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vanilla_additions_by_trapp:blocks/electrocitereactor",
+    "up": "vanilla_additions_by_trapp:blocks/electrocitereactor",
+    "north": "vanilla_additions_by_trapp:blocks/electrocitereactor",
+    "east": "vanilla_additions_by_trapp:blocks/electrocitereactor",
+    "south": "vanilla_additions_by_trapp:blocks/electrocitereactor",
+    "west": "vanilla_additions_by_trapp:blocks/electrocitereactor",
+    "particle": "vanilla_additions_by_trapp:blocks/electrocitereactor"
+  }
+}

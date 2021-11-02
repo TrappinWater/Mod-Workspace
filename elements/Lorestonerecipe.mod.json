@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Faestone"
+      },
+      {
+        "value": "CUSTOM:Reinforcedsteel"
+      },
+      {
+        "value": "CUSTOM:Faestone"
+      },
+      {
+        "value": "CUSTOM:Reinforcedsteel"
+      },
+      {
+        "value": "CUSTOM:Corruptionstone"
+      },
+      {
+        "value": "CUSTOM:Reinforcedsteel"
+      },
+      {
+        "value": "CUSTOM:Faestone"
+      },
+      {
+        "value": "CUSTOM:Reinforcedsteel"
+      },
+      {
+        "value": "CUSTOM:Faestone"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Lorestone"
+    },
+    "name": "lorestonerecipe",
+    "namespace": "mod"
+  }
+}

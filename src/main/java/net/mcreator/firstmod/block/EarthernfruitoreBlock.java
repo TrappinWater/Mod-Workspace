@@ -31,6 +31,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -87,6 +88,8 @@ public class EarthernfruitoreBlock extends VanillaAdditionsByTrappModElements.Mo
 			boolean blockCriteria = false;
 			if (blockAt.getBlock() == FaestoneBlock.block)
 				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.CAVE_AIR)
+				blockCriteria = true;
 			return blockCriteria;
 		}
 
@@ -112,7 +115,7 @@ public class EarthernfruitoreBlock extends VanillaAdditionsByTrappModElements.Mo
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 3)).range(64)
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 5)).range(69)
 					.square().func_242731_b(9);
 			event.getRegistry().register(feature.setRegistryName("earthernfruitore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("vanilla_additions_by_trapp:earthernfruitore"),

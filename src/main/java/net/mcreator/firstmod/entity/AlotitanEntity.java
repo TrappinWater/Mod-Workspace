@@ -81,7 +81,7 @@ public class AlotitanEntity extends VanillaAdditionsByTrappModElements.ModElemen
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.3);
 			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 50);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 9);
-			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 10);
+			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 13);
 			event.put(entity, ammma.create());
 		}
 	}

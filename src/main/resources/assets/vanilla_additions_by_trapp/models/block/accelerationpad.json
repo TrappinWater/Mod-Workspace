@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vanilla_additions_by_trapp:blocks/steeeeeeeeeeeel",
+    "up": "vanilla_additions_by_trapp:blocks/accelerationtop",
+    "north": "vanilla_additions_by_trapp:blocks/steeeeeeeeeeeel",
+    "east": "vanilla_additions_by_trapp:blocks/steeeeeeeeeeeel",
+    "south": "vanilla_additions_by_trapp:blocks/steeeeeeeeeeeel",
+    "west": "vanilla_additions_by_trapp:blocks/steeeeeeeeeeeel",
+    "particle": "vanilla_additions_by_trapp:blocks/steeeeeeeeeeeel"
+  }
+}

@@ -95,7 +95,7 @@ public class RottenEntity extends VanillaAdditionsByTrappModElements.ModElement 
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 1);
 			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 45);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 0);
-			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 9);
+			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 10);
 			ammma = ammma.createMutableAttribute(Attributes.KNOCKBACK_RESISTANCE, 1.5);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_KNOCKBACK, 0.1);
 			ammma = ammma.createMutableAttribute(ForgeMod.SWIM_SPEED.get(), 1);

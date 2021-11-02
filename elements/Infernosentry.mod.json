@@ -111,11 +111,15 @@
     "rangedItemType": "Spicelauncher",
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 10,
-    "mobSpawningType": "monster",
+    "spawningProbability": 22,
+    "mobSpawningType": "creature",
     "minNumberOfMobsPerGroup": 1,
-    "maxNumberOfMobsPerGroup": 1,
-    "restrictionBiomes": [],
+    "maxNumberOfMobsPerGroup": 2,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Infernalplains"
+      }
+    ],
     "spawnInDungeons": false
   }
 }

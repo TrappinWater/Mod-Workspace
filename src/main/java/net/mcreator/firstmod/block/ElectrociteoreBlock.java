@@ -113,13 +113,16 @@ public class ElectrociteoreBlock extends VanillaAdditionsByTrappModElements.ModE
 					boolean dimensionCriteria = false;
 					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("vanilla_additions_by_trapp:alozinith")))
 						dimensionCriteria = true;
+					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY,
+							new ResourceLocation("vanilla_additions_by_trapp:alogenesis")))
+						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 2)).range(64)
-					.square().func_242731_b(7);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 3)).range(90)
+					.square().func_242731_b(23);
 			event.getRegistry().register(feature.setRegistryName("electrociteore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("vanilla_additions_by_trapp:electrociteore"),
 					configuredFeature);
@@ -127,6 +130,13 @@ public class ElectrociteoreBlock extends VanillaAdditionsByTrappModElements.ModE
 	}
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
+		boolean biomeCriteria = false;
+		if (new ResourceLocation("vanilla_additions_by_trapp:steelplain").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("vanilla_additions_by_trapp:alogenesiswastes").equals(event.getName()))
+			biomeCriteria = true;
+		if (!biomeCriteria)
+			return;
 		event.getGeneration().getFeatures(GenerationStage.Decoration.UNDERGROUND_ORES).add(() -> configuredFeature);
 	}
 }

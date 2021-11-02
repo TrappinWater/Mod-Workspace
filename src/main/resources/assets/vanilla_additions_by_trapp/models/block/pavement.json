@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vanilla_additions_by_trapp:blocks/pavement",
+    "up": "vanilla_additions_by_trapp:blocks/pavement",
+    "north": "vanilla_additions_by_trapp:blocks/pavement",
+    "east": "vanilla_additions_by_trapp:blocks/pavement",
+    "south": "vanilla_additions_by_trapp:blocks/pavement",
+    "west": "vanilla_additions_by_trapp:blocks/pavement",
+    "particle": "vanilla_additions_by_trapp:blocks/pavement"
+  }
+}

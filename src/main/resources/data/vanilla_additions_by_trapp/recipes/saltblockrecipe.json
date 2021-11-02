@@ -1,0 +1,26 @@
+{
+  "group": "vanilla_additions_by_trapp",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "vanilla_additions_by_trapp:salt"
+    },
+    "1": {
+      "item": "vanilla_additions_by_trapp:salt"
+    },
+    "2": {
+      "item": "vanilla_additions_by_trapp:salt"
+    },
+    "3": {
+      "item": "vanilla_additions_by_trapp:salt"
+    }
+  },
+  "result": {
+    "item": "vanilla_additions_by_trapp:saltblock",
+    "count": 1
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "vanilla_additions_by_trapp",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "vanilla_additions_by_trapp:fuelcell"
+    },
+    "1": {
+      "item": "vanilla_additions_by_trapp:steelplate"
+    },
+    "2": {
+      "item": "vanilla_additions_by_trapp:fuelcell"
+    },
+    "3": {
+      "item": "vanilla_additions_by_trapp:steelplate"
+    },
+    "4": {
+      "item": "vanilla_additions_by_trapp:electrocite"
+    },
+    "5": {
+      "item": "vanilla_additions_by_trapp:steelplate"
+    },
+    "6": {
+      "item": "vanilla_additions_by_trapp:fuelcell"
+    },
+    "7": {
+      "item": "vanilla_additions_by_trapp:steelplate"
+    },
+    "8": {
+      "item": "vanilla_additions_by_trapp:fuelcell"
+    }
+  },
+  "result": {
+    "item": "vanilla_additions_by_trapp:electrocitereactor",
+    "count": 1
+  }
+}

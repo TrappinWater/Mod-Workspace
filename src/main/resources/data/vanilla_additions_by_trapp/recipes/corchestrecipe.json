@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "vanilla_additions_by_trapp:umbral_stone_armor_chestplate"
+  },
+  "addition": {
+    "item": "vanilla_additions_by_trapp:corruptionstone"
+  },
+  "result": {
+    "item": "vanilla_additions_by_trapp:corruptedarmor_chestplate"
+  }
+}

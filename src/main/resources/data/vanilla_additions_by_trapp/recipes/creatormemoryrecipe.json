@@ -1,0 +1,19 @@
+{
+  "group": "vanilla_additions_by_trapp",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "vanilla_additions_by_trapp:lorestone"
+    },
+    "1": {
+      "item": "vanilla_additions_by_trapp:alostone"
+    }
+  },
+  "result": {
+    "item": "vanilla_additions_by_trapp:memoryofthecreator",
+    "count": 1
+  }
+}

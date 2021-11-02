@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Faestone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Faestone"
+      },
+      {
+        "value": "CUSTOM:Skystoneitem"
+      },
+      {
+        "value": "CUSTOM:Faestone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Faestone"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Frontier"
+    },
+    "name": "frontierigniterrecipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vanilla_additions_by_trapp:blocks/astralore",
+    "up": "vanilla_additions_by_trapp:blocks/astralore",
+    "north": "vanilla_additions_by_trapp:blocks/astralore",
+    "east": "vanilla_additions_by_trapp:blocks/astralore",
+    "south": "vanilla_additions_by_trapp:blocks/astralore",
+    "west": "vanilla_additions_by_trapp:blocks/astralore",
+    "particle": "vanilla_additions_by_trapp:blocks/astralore"
+  }
+}

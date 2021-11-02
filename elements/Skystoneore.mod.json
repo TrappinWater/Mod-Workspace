@@ -122,17 +122,27 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [
-      "CUSTOM:Umbra"
+      "CUSTOM:Umbra",
+      "CUSTOM:Frontier"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.AIR"
+      },
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "Blocks.CAVE_AIR"
+      },
+      {
+        "value": "Blocks.VOID_AIR"
       }
     ],
     "frequencyPerChunks": 4,
     "frequencyOnChunk": 5,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "minGenerateHeight": 60,
+    "maxGenerateHeight": 74
   }
 }

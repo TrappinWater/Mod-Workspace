@@ -1,0 +1,23 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:Aloarmor.legs"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:Noxitereactor"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:Aloarmor2.legs"
+    },
+    "name": "alopantinfuse_2",
+    "namespace": "mod"
+  }
+}
