@@ -1,0 +1,16 @@
+{
+  "group": "vanilla_additions_by_trapp",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "vanilla_additions_by_trapp:lorestone"
+    },
+    {
+      "item": "vanilla_additions_by_trapp:astralstone"
+    }
+  ],
+  "result": {
+    "item": "vanilla_additions_by_trapp:memoryofthevoid",
+    "count": 1
+  }
+}

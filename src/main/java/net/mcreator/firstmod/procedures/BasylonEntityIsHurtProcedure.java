@@ -9,17 +9,19 @@ import net.mcreator.firstmod.VanillaAdditionsByTrappMod;
 
 import java.util.Map;
 
-public class Aloarmor1HelmetTickEventProcedure {
+public class BasylonEntityIsHurtProcedure {
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				VanillaAdditionsByTrappMod.LOGGER.warn("Failed to load dependency entity for procedure Aloarmor1HelmetTickEvent!");
+				VanillaAdditionsByTrappMod.LOGGER.warn("Failed to load dependency entity for procedure BasylonEntityIsHurt!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.RESISTANCE, (int) 60, (int) 0, (true), (false)));
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.STRENGTH, (int) 60, (int) 6));
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.FIRE_RESISTANCE, (int) 60, (int) 0, (true), (false)));
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.RESISTANCE, (int) 60, (int) 2));
+		if (entity instanceof LivingEntity)
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.REGENERATION, (int) 60, (int) 0));
 	}
 }
