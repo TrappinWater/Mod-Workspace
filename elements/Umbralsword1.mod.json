@@ -1,0 +1,37 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "umbralswoord",
+    "customModelName": "Normal",
+    "name": "Umbral Sword +1",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 5,
+    "efficiency": 11.0,
+    "attackSpeed": 1.6,
+    "enchantability": 17,
+    "damageVsEntity": 8.5,
+    "usageCount": 2506,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Umbralstoneitem"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onCrafted": {
+      "name": "UmbralstoneItemIsCraftedsmelted"
+    },
+    "onEntityHitWith": {
+      "name": "UmbralstoneSwordLivingEntityIsHitWithTool"
+    }
+  }
+}

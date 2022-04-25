@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "disc",
+    "name": "Dimitri disco",
+    "description": "Dimitri disco",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:dimitridisco"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

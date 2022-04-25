@@ -38,7 +38,7 @@ public class OrichalcumswordItem extends VanillaAdditionsByTrappModElements.ModE
 			}
 
 			public float getAttackDamage() {
-				return 9.5f;
+				return 7.5f;
 			}
 
 			public int getHarvestLevel() {

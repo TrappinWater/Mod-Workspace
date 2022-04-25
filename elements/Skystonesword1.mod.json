@@ -1,0 +1,23 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:SkystoneSword"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:Enhancite"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:Skysword1"
+    },
+    "name": "skystonesword_1",
+    "namespace": "mod"
+  }
+}

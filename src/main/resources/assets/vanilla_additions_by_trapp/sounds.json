@@ -7,5 +7,14 @@
         "stream": false
       }
     ]
+  },
+  "dimitridisco": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "vanilla_additions_by_trapp:dimitri_disco",
+        "stream": true
+      }
+    ]
   }
 }

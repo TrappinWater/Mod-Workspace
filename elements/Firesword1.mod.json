@@ -1,0 +1,37 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "firestoneswoord",
+    "customModelName": "Normal",
+    "name": "Firestone Sword +1",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 3,
+    "efficiency": 7.0,
+    "attackSpeed": 1.5,
+    "enchantability": 16,
+    "damageVsEntity": 8.0,
+    "usageCount": 285,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Firestoneingot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onCrafted": {
+      "name": "FirestonePickaxeItemIsCraftedsmelted"
+    },
+    "onEntityHitWith": {
+      "name": "FirestoneLivingEntityIsHitWithTool"
+    }
+  }
+}

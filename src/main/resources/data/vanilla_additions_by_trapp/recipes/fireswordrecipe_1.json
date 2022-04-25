@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "vanilla_additions_by_trapp:firestone_sword"
+  },
+  "addition": {
+    "item": "vanilla_additions_by_trapp:enhancite"
+  },
+  "result": {
+    "item": "vanilla_additions_by_trapp:firesword_1"
+  }
+}

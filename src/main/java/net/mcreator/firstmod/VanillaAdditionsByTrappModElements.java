@@ -47,6 +47,8 @@ public class VanillaAdditionsByTrappModElements {
 	public VanillaAdditionsByTrappModElements() {
 		sounds.put(new ResourceLocation("vanilla_additions_by_trapp", "revenantsound"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("vanilla_additions_by_trapp", "revenantsound")));
+		sounds.put(new ResourceLocation("vanilla_additions_by_trapp", "dimitridisco"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("vanilla_additions_by_trapp", "dimitridisco")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("vanilla_additions_by_trapp").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

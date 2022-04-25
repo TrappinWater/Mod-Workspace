@@ -31,7 +31,7 @@ public class AloswordItem extends VanillaAdditionsByTrappModElements.ModElement 
 			}
 
 			public float getAttackDamage() {
-				return 13f;
+				return 14f;
 			}
 
 			public int getHarvestLevel() {
